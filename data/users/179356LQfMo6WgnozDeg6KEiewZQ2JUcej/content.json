@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "G2rRbSlRFRoC1Exk/dLgGnlKyxswa4dRfGa59x2gjWebJBxe4ksV08d3BjWXjjQdO9pFPmFDuulgix4cV2N+B70=",
+ "cert_user_id": "neweva@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "98ade212de30dc1e9961c20b80f798dfb123b6068d9967285bbf2c9899d4ee3b",
+   "size": 270
+  }
+ },
+ "inner_path": "data/users/179356LQfMo6WgnozDeg6KEiewZQ2JUcej/content.json",
+ "modified": 1470784192.238,
+ "signs": {
+  "179356LQfMo6WgnozDeg6KEiewZQ2JUcej": "GzDM9xR86xLanIqq0ZZKloGmuy+ghYZ3O4E92OSA6L2G58q1xBXmyOdbGO4LRkNOLxLXZrUeSsqsmCEJZJ+rwcQ="
+ }
+}

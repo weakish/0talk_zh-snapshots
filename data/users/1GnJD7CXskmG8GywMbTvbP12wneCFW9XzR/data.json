@@ -1,0 +1,285 @@
+{
+	"next_topic_id": 7,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "alpine linux",
+			"body": "- Small.\n- Simple.\n- Secure.\n- Based on musl libc and busybox.\n\n放虚拟机或者容器里跑特别合适。",
+			"added": 1470306348,
+			"parent_topic_uri": "19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 2,
+			"title": "有没有　tweet on ZeroNet ?",
+			"body": "有类似　tweet 的　Zite 可以克隆吗？\n\ntwister 太慢了。\n\n话说这类似　tweet 是更像　ZeroMail 还是更像　ZeroBlog ?",
+			"added": 1470354711,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 3,
+			"title": "提议在 ZeroMe 上开一个　GFW Talk Hub",
+			"body": "名字不一定要叫这个，总之就是一个中文圈的 ZeroMe Hub.\n\n理由：\n\n- nofish 的 Red/Blue Hub 限制是 50kb　可能不太够用\n- 多 Hub 与 ZeroMe 的 P2P 特色相符\n- 个人认为按语言开 Hub 是不错，比如我根本不懂僧伽罗语，就没必要 serve 僧伽罗语 Hub\n\n提议由 @xiaolan65535 来开，因为 GFW Talk 运行不错。\n\n也欢迎其他人来建，只不过不过我提议站长符合以下要求：\n\n- 稳定运营\n\n    包括 Hub 版本及时跟随官方升级等等，开机时间倒无所谓，反正加的人多节点数不会是问题。\n\n- 匿名运营\n\n    这也是我提议 @xiaolan65535 的另一个原因。站长匿名，可以避免因为站长被请喝茶而关站，虽然说关站了也可以从其他人那里复制内容后导入新站重开，但总是麻烦。（这匿名并不是说站长上个 Tor 就行了，还包括站长运行 ZeroNet 和 Tor 的电脑要干净，避免染毒之类，或者是放虚拟机。同时站长自己的发言要避免能被追踪到个人。）\n\n暂时想到这些。大家补充。",
+			"added": 1471084181,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 4,
+			"title": "ZeroMe Hub 列表",
+			"body": "https://weakish.github.io/ZeroMeHubList/\n\n如有遗漏，请补充（GitHub 上提交 pull-request 或 issue",
+			"added": 1472305644,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 5,
+			"title": "<meta gasb=\"\"> 是什么意思",
+			"body": "如题。gasb 是什么缩写？",
+			"added": 1472384082,
+			"parent_topic_uri": "12_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 6,
+			"title": "ZeroTalk定制字段field",
+			"body": "[如何在ZeroTalk中添加字段](http://127.0.0.1:43110/1LXYxf5cWy1F6ew8Ph47dgu9o2zA88T3Sy/?Post:5)",
+			"added": 1475925926,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		}
+	],
+	"topic_vote": {
+		"37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"44_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1DHkQscdoSbZzEFER6om5yB523MC5mdrdB": 1,
+		"46_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"17_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	},
+	"next_comment_id": 36,
+	"comment": {
+		"30_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "除了 rsync　还可以看下　bup/attic/borg",
+				"added": 1468632601
+			},
+			{
+				"comment_id": 22,
+				"body": "对于变化非常频繁的站点（比如 ZeroMe），结合 inotify 监视文件变动，能实现实时备份。",
+				"added": 1471141355
+			},
+			{
+				"comment_id": 23,
+				"body": "> [p2p](#comment_835_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 这几个有何优势、特点？\n\n1. 这几个支持文件 rolling deduplication（类似网盘秒传文件的功能，而且更先进，部分相同的文件也是相同部分只存一份），由于大量站点都是 clone 来的，所以有大量文件是一样或者几乎一样的（html, css, js等），估计能省不少空间。\n2. 可以将某一时刻的文件以 fuse 的形式只读 mount，回滚很方便\n\n比较：\n\n- bup 最老，而且不能删除以前的备份，一般不推荐用。不过 ZeroNet 网站快照一般是永久的，所以这也不算问题。\n- attic 大部分 Linux 发行版都有。\n- borg 功能更多，修 bug 更快（是 attic 的 fork，attic 的开发比较缓慢）但有些 Linux 发行版没有，需要通过 pip 安装",
+				"added": 1471147994
+			}
+		],
+		"1_1MQx1RH5Dn4QQRux8aGgGK3V2e999Nt33E": [
+			{
+				"comment_id": 2,
+				"body": "楼主了解过 twister 否?",
+				"added": 1468636182
+			}
+		],
+		"1_1MQFF8bUva3L5QwYzepRMqYizfAPE8UBcr": [
+			{
+				"comment_id": 3,
+				"body": "> 如何防止被随意删除表记录或篡改数据？比如我本地有GFWTALK的数据库，我如果随意改了里面的数据，再同步给别人，会出现什么结果？\n\n你修改 sqlite 数据库，只是在你本地生效，是不会广播出去的。\n所以修改 sqlite 数据库无法同步给别人。\n\n> 然后其他人向我请求 GFWTALK 的数据库更新时，就自动传给他们。\n\n别人不会向你请求 sqlite 更新（sqlite 是本地用的），请求的是 json 数据文件，而且是 GFWTALK 站长签名过的 json 数据文件。\n除非你 hack 了站长的电脑搞到私钥，否则无法假冒 GFWTALK 站长签名。\n如果强行提及自己签名的 json 数据文件，其他 peer 不会接受。\n\n> 但如果我不仅仅是新增了我的贴子，还改了别人的贴子呢\n\n和上面同理。\n每人的发言也是要自己签名的。\n所以你无法修改别人的帖子。\n\n> 与哪个节点对比计算增量呢\n> 增量是以表的记录同步？还是SQL LOG日志去同步？\n\n其实是进行了修改（包括站长更新和用户发帖）的节点广播消息（签名过的json），\n收到的节点再广播出去。",
+				"added": 1470032579
+			},
+			{
+				"comment_id": 9,
+				"body": "> [shuiku](#comment_3_1MQFF8bUva3L5QwYzepRMqYizfAPE8UBcr): 是否： 新增、修改、删除、改表结构等 数据库操作会都会转化成 json 呢？或者签名的 json 才是同步与确保身份的关键呢？ SQLITE数据库只是为了加快本地查询的速度，才把许许多多 json 写入一个数据库中的呢？ 也就是说：系统会收集所有合法签名的 json 然后再本地拼出一个数据库来加快本地的读取的速度。 也就是说 用户的操作 不会直接写数据库，而是 先变成 json 然后再由系统写入数据库。对不对？  \n\n对.\n\n> 再请问哪里可以找到这些知识的说明，官方文档上有吗？\n\n官方文档有，但是没有集中说明。\n看官方文档的 SITE DEVELOPMENT 下的　ZeroFrame API Reference 结合　Structure of content.json & dbschema.json，能大致明白。",
+				"added": 1470656544
+			}
+		],
+		"1_13XxDHVLyDtRvrAdzuUretCvzk83vSPEMJ": [
+			{
+				"comment_id": 4,
+				"body": "论坛需要屏蔽用户帖子功能！",
+				"added": 1470354374
+			}
+		],
+		"1_15RKkMHxLGKWbz4G9gn7mshWbXV9gU9Qf2": [
+			{
+				"comment_id": 5,
+				"body": "到　ZeroName 用你的站点的地址查",
+				"added": 1470354510
+			}
+		],
+		"37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 6,
+				"body": "> [cnocg](#comment_3_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV): 请问下是否有手机app的可能性？\n\nAndroid 可以（都是Linux）。\n其他系统的话只能靠 0net proxy.",
+				"added": 1470439762
+			},
+			{
+				"comment_id": 7,
+				"body": "> [sampleolive](#comment_3_12NMumchn6V7LYWohpXcsy3wCUSDbqPU2g): .bit域名怎么申请\n\n置顶帖里有。",
+				"added": 1470439898
+			},
+			{
+				"comment_id": 8,
+				"body": "> [84](#comment_3_1Hr2Q3vv3ykxQR6c2wXTGpmRSH1giwbv6i): 本地数据会最终拖垮零网的！\n\nP2P 怎么会拖垮？",
+				"added": 1470439934
+			},
+			{
+				"comment_id": 21,
+				"body": "> 通用的自动快照脚本来创建一系列ZeroNet网站快照，实现真正不可能关闭的网站！ \n\n@p2p 这个链接好像有误，应该链接到 http://127.0.0.1:43110/gfwtalk.bit/?Topic:30_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+ZeroNet",
+				"added": 1471140670
+			}
+		],
+		"18_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 10,
+				"body": "> [codegeass](#comment_2_1L2FnXBU5fhVATcwtJLvX2ZhsZSGDSqJcn): 这个标签系统是如何实现的呢？想把它克隆进自己的Blog\n\n不要克隆官方的 ZeroBlog， ZeroBlog 左栏链接里有个 Enhanced ZeroBlog，点进去，克隆那个站点，自带标签功能。",
+				"added": 1470656741
+			},
+			{
+				"comment_id": 11,
+				"body": "@p2p\n\n官方的 ZeroBlog， 左栏链接里有个 Enhanced ZeroBlog，点进去，克隆站点，自带标签功能。\n建议在 FAQ 中加上，估计不少人的博客想要标签功能。",
+				"added": 1470656867
+			}
+		],
+		"44_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 12,
+				"body": "现在勾全打上了，貌似还没发布呀。",
+				"added": 1470657078
+			},
+			{
+				"comment_id": 16,
+				"body": "red hub 和 blue hub 有什么区别？",
+				"added": 1471081650
+			},
+			{
+				"comment_id": 25,
+				"body": "有一些人的 profile 页面点进去一片空白（目测是 red hub），怎么办？",
+				"added": 1471156177
+			},
+			{
+				"comment_id": 26,
+				"body": "> [p2p](#comment_837_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 在ZeroHello 里最下面的左边，找到 red hub，点三个点图标，再点update，多试几次，实在不行清浏览器缓存、浏览器隐身模式、直至重启ZeroNet\n\n这些试了没效果。\n后来挂代理（  `ssh -2 -R 15441:127.0.0.1:15441 -A -D 1080  root@remote_vps_ip` 和 ` tsocks python zeronet.py`）之后就正常了。看来是我这里网络不行。",
+				"added": 1471165157
+			}
+		],
+		"2_1M54tXvq9WvmbAPBDdwCx72ZxQpeQdMCzw": [
+			{
+				"comment_id": 13,
+				"body": "> [44](#comment_1_14Ew6qiE6kPmZtqyQZEb4ZDjgMsPghV5Z8): 意思是像com或者net这种域名一样需要每年续费的吗\n\n目前 .bit 不需要续费（以后不一定）\n\n摘自 [FAQ Namecoin](https://wiki.namecoin.info/index.php?title=FAQ#Do_I_have_to_pay_renewal_fees.3F)\n\n> Q :Do I have to pay renewal fees?\n> A: Not at the moment, although there are plans to change this..",
+				"added": 1470657504
+			},
+			{
+				"comment_id": 19,
+				"body": "> [xuejianxuanyuan](#comment_2_126X2qQRBfL77auGPQAxvTEentcztuaDf9): 求助bit域名注册，联系不到domains4free怎么办？？？\n\n自己通过 namecoin 注册（ google 或 bing 搜索，下载软件安装），namecoin 可以用比特币买。",
+				"added": 1471084883
+			}
+		],
+		"3_1MQFF8bUva3L5QwYzepRMqYizfAPE8UBcr": [
+			{
+				"comment_id": 14,
+				"body": "> [graveyardswatch](#comment_17_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF): 传销、赌博之类可真是潮啊，连zeronet也用。\n\n这个不算传销吧，最多算赌博（如果期货算赌博的话",
+				"added": 1471061135
+			},
+			{
+				"comment_id": 15,
+				"body": "> [graveyardswatch](#comment_19_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF): 期货是基于实际有用的商品，和只有概率的赌博完全两回事。\n> 就算玩股指的，也比纯赌博好多了。\n\n我说的是「如果期货算赌博的话」，中文没有虚拟语气。。。",
+				"added": 1471081106
+			},
+			{
+				"comment_id": 28,
+				"body": "> [siyi41](#comment_1_1KyF4z2owBBcTReb22jVoYruwdkvXoYwgj): 在你的介绍里，举例说1000W的合约，作为“技术供应商”可以获得2W，如果占5%的贡献币就可以获得1K，可是你忽略了技术供应商需要不断地维护以及开发技术，保证运营并且继续筑起壁垒防止别人赶超。在这方面也是不小的投资啊。\n\n当然要有投资。否则凭什么白白得？凭什么大家不找别的供应商？",
+				"added": 1471511595
+			}
+		],
+		"1_1LghsU7VGdKoa9b5xY4QAN7GKZs4w8eCto": [
+			{
+				"comment_id": 17,
+				"body": "> [chinanet](#comment_89_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt): 不懂用不要乱说，不仅能搜索博客，还能搜索论坛。你仔细看过置顶贴吗？\n\n作者的意思应该是博客界面上不像很多博客一样有一个搜索框。\n其实 ZeroNet 的特点就是你访问的站点都同步到本地，所以如果要搜索单个博客其实可以到站点文件夹下搜索 json 文本，但这并不方便。\nZeroNet 的博客界面功能确实比较阳春。",
+				"added": 1471084479
+			},
+			{
+				"comment_id": 18,
+				"body": "> [nofishes](#comment_3_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx): 那是你个人感觉而已，我不觉得，反而在这里让我感觉到自由的气息。消息越杂，越真实。说明这里不是和谐网络。想要正正规规的信息，还是别来这里的好，因为这里没有和谐工作者。\n\n其实 clearnet 上也是多是垃圾信息，而且从比例上来说，我估计垃圾信息占比远大于 ZeroNet.",
+				"added": 1471084565
+			}
+		],
+		"1_1Bm4w4zuxZwgu9kLpRn1edHaKnwaiSJzb2": [
+			{
+				"comment_id": 20,
+				"body": "> [chinaghost](#comment_2_1LG7MxJmvK6W2otx3EQHKYN38YmWj79Avb): 只有拥有内容才能吸引客户，而不是病毒式传播。有内容，传播就很快。没有关注的安装是没有什么用处的\n\n楼主的意思其实是「积累肉鸡」，\n类似很多手机或电脑出厂预装一大堆软件，\n然后由于 ZeroNet 的 P2P 特性，不用 ZeroNet 的也在（由于自动启动、自动更新，即使不用也等于在帮 ZeroNet 网络分流）。\n\n不过真这么搞只会让很多人反感 ZeroNet，和 ZeroNet 的初衷背道而驰。",
+				"added": 1471085256
+			}
+		],
+		"1_19GLizAHFbsU1My9fkBitenCUc9GWTmPS9": [
+			{
+				"comment_id": 24,
+				"body": "並沒有 po 文件之類（也就是說不支持多界面語言），\n直接改 `ZeroNet/data/ID/` 下的 html 和 js",
+				"added": 1471152355
+			}
+		],
+		"4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 27,
+				"body": "> [moe](#comment_7_19GLizAHFbsU1My9fkBitenCUc9GWTmPS9): @p2p但我觉得如果希望不泄露访客 IP 唯一的办法是通过类似 Whonix Gateway 之类的方式强制整个操作系统经过 Tor ....其他方法还是感觉不太可靠...\n\n说的是用户的 IP 不暴露给 host 外链图片的人。\nZeroNet 不对 tracker 和与自己相连的节点匿名，类似 BitTorrent.\n完全匿名确实需要 Tor 之类代理。",
+				"added": 1471433464
+			}
+		],
+		"4_1Fv1xGsCxVzHNkCyCMLkJsXaqHSqc5VS45": [
+			{
+				"comment_id": 29,
+				"body": "> [fuckgcd](#comment_16_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 小时候在爷爷家玩发现有本轮子的书，牛皮纸封面的（我爷爷眼睛不好使也不识字，那本书是捡来烧水起火用的）里面好像没有提到江\n\n你那是法轮功被禁前的书吧。\n依稀记得书里提到什么地球要毁灭了，李鹏找了李洪志后，李洪志发功推迟毁灭什么的。",
+				"added": 1471623871
+			}
+		],
+		"1_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": [
+			{
+				"comment_id": 30,
+				"body": "> 1.自己在NameCoin钱包里注册所需绑定域名的各个参数是什么意思？\n\nname_show 查域名是否已被注册，name_new 预定，name_firstupdate 注册，name_update 修改DNS记录、续费、移交。\n如namecoind嫌难，可用Namecoin-Qt\n\n2.到期后怎么弄？\n\nname_update 续费（目前续费免费）\n\n3.哪里可以买到NameCoin ?\n\nhttps://wiki.namecoin.info/index.php?title=Exchanges\n\n（用比特币买最方便，其次是 Paypal 和信用卡",
+				"added": 1472131371
+			}
+		],
+		"1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 31,
+				"body": "> [sunshine2177](#comment_2_17B6mYDKktwThF5Kpm7S8j1qAtPCQXp3J5): 这个id是不是自己生成的\n\nZeroID 是注册的。\n站点 id 是生成的。",
+				"added": 1472269824
+			}
+		],
+		"1_1RqPDKkUQqWa51otEqK8z4mVosYMR9Zma": [
+			{
+				"comment_id": 32,
+				"body": "强推余额宝而已。",
+				"added": 1474550771
+			}
+		],
+		"3_1DmGsXFPPexxcuTRgYZxDRHqGA7CbR3j14": [
+			{
+				"comment_id": 33,
+				"body": "因为很多国家色情合法，儿童色情不合法。所以很多人这么觉得。（很多人的底线是参考法律的。）",
+				"added": 1474550863
+			}
+		],
+		"1_13Y7yydemDV2ZDR5QYC9gsbbNr5oqYqGH7": [
+			{
+				"comment_id": 34,
+				"body": "> [surveillance1044](#comment_1_1NEHvMwsHfFA2pcGYrN3Ns8w4dTEP7AsMG): \n> 因爲在hidden wiki上面有黑客的僱傭,如果你花錢(也就是比特幣)的話,他們願意爲僱傭者提供黑客攻擊服務.... 所以xiaolan才躲藏起來的.... (令人諷刺的是,當時方校長在論文中介紹Hidden Service的時候,說明“這個網站上充斥着大量的毒品、黑客等不法服務 然而國安現在想用這種不法服務來對xiaolan進行攻擊....真是諷刺...)\n\n如果属实的话，看来xiaolan的隐匿做得不错。自家部队搞不定，要找外援了。",
+				"added": 1475145229
+			}
+		],
+		"2_19GLizAHFbsU1My9fkBitenCUc9GWTmPS9": [
+			{
+				"comment_id": 35,
+				"body": "> [p2p](#comment_881_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 如果他不现身，本论坛就处于绝对自由的状态，完全靠自觉，只能寄希望于捣乱的人不盯上这里。如果被捣乱，我只能用置顶贴引导其他人到新论坛\n\n如果真完全不管的话，gfwtalk.bit 会过期的吧。到时可以重新注册，指向新论坛。然后新论坛站长可以把旧论坛的帖子都迁移过来（专门搞一个大配额的「论坛迁移机器人」用户，把原论坛的所有帖子重发一般　`user time likes -> content` 变成 `论坛迁移机器人 time likes -> user time likes content`",
+				"added": 1475145707
+			}
+		]
+	},
+	"comment_vote": {
+		"18_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"4_13wHQ1hmi6E9e1LetRkhEXkYun1q56zkKh": 1,
+		"3_121nbwrxZZz6PJ1WQ324jojCnRE96xUnRr": 1,
+		"5_1GQDMRRaZWCFPyW9khzWphHhUS2Scv6haC": 1,
+		"12_16GNeHFpN3X1NaWBUJKXJ16eGYAwsfP8qF": 1,
+		"141_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": 1,
+		"861_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"4_13Y7yydemDV2ZDR5QYC9gsbbNr5oqYqGH7": 1,
+		"905_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	}
+}

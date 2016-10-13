@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "G60XSMMdmYDlAeLcxbkNNGTpAXWm8u71HvJSbeObQHcccuGPOBVjFIYj99yZI6dlGFsqO/Ved9siWJ1a5c5oyCs=",
+ "cert_user_id": "radio@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1601b2f7bd0e64cac8c8a70c2f1dc64a4b19d87386ad5bda679db3a7e368929a",
+   "size": 361
+  }
+ },
+ "inner_path": "data/users/1LtQX7fxVbXMjJ2ui27n3bgWmxxMBVLui6/content.json",
+ "modified": 1461591351.52,
+ "signs": {
+  "1LtQX7fxVbXMjJ2ui27n3bgWmxxMBVLui6": "G/8LsIvdH++G/IXZ5x6PDa7nx9Xnl/5GDtTo3aqCD+k9sim+1+rjkVKbTm4BKqamTxZBZWpd9KFeOdXp780xjEo="
+ }
+}

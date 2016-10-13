@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "G6wJp88jEAsWOZ1OY7YDeAfZ3dfT715sjrtJPO9b/FbGo1bmC3jPEqCU2CjCMCFp5V2GopMHzgFOrWHFCpM4KQE=",
+ "cert_user_id": "windonsurf@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4d311228c6bce4a0cebf59a22b8d7e9c58af2064d4322b1c0970aa1c8bc80bb6",
+   "size": 979
+  }
+ },
+ "inner_path": "data/users/1KNe8oqdHjEAYSEZByAikQi66GjZB1rSxL/content.json",
+ "modified": 1476337728.729,
+ "signs": {
+  "1KNe8oqdHjEAYSEZByAikQi66GjZB1rSxL": "GzHDKg3fM8YiFHVtSeVyoSmncOK+PnVWkycsHMNmmoG4vghAJv27gWO111fW1xI579HQUzS90/4vhG8YOZS45DI="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "HA8xV+kmrNo45S8NSiDMuCcRXiApzTLJilO3rRid48f+sSDAhEuf0KfCPIbY7RA9iTnlZ6mmOycGHO/RG9PQYIw=",
+ "cert_user_id": "niconiconi@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9033908ffa34aa4114c0222874fcb0a858f065d06a0b5505598cb725a9374e72",
+   "size": 1455
+  }
+ },
+ "inner_path": "data/users/1JHXXGVpX7cWXZ3SFXYJ96n6hF5kcjNJvE/content.json",
+ "modified": 1475516871.23,
+ "signs": {
+  "1JHXXGVpX7cWXZ3SFXYJ96n6hF5kcjNJvE": "HEXY4PrVRMG+visZHcbReAZIO4xGohG6JaF5eCzCyy7FTRvMcGNX+2iH2BAi35uce7ftSFVvOfXsvEybZyAuN9E="
+ }
+}

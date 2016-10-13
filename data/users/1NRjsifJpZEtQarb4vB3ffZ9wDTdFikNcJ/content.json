@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "G6Hj7tV1eyyleA9VS5aaud67oc9CUku3+Y05ik07m8q41ZyEU/B7nfgFr54LydRALxd/XVribyVJgWAYZCaQczU=",
+ "cert_user_id": "nokia@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "dbd423f3da52987a07bcb68e867919173e4fb5b152249e55030932db646c848a",
+   "size": 607
+  }
+ },
+ "inner_path": "data/users/1NRjsifJpZEtQarb4vB3ffZ9wDTdFikNcJ/content.json",
+ "modified": 1469519100.57,
+ "signs": {
+  "1NRjsifJpZEtQarb4vB3ffZ9wDTdFikNcJ": "HJCCwAMlhK3WrtN4LvczI9xuruSn69PqnBcK18a+mFgy8DW8BhEacKTjwJTsEuf/vPTIWeRbA4rX2n22AcWSw6E="
+ }
+}

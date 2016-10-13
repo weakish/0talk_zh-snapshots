@@ -1,0 +1,995 @@
+{
+	"next_topic_id": 10,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "https://cn.bing.com 受到中间人攻击？",
+			"body": "杭州移动 4G ，登录 https://cn.bing.com 时提示此证书不受信任，证书是颁发给 haomiao.com 的自签证书。",
+			"added": 1463576655,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 2,
+			"title": "frost 这几天收到大量垃圾信息",
+			"body": "Freenet 下古老的公共信息系统 Frost 受到 DoS 攻击，起先是大量垃圾 spam 信息以 TechnoIlliterate 为用户名前缀随机内容（拉丁字符）在儿童色情版块发布，后以大量随机用户名随机内容（拉丁字符）延伸到官方版块已持续差不多半个月之久，深深体会到了 Frost 反垃圾能力的薄弱。",
+			"added": 1463648475,
+			"parent_topic_uri": "19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 3,
+			"title": "中国互联网维护日互联网可用性测试",
+			"body": "杭州电信：\n- 无界：找不到服务器\n- 自由门：找不到服务器，使用 DNSCrypt 后可以找到服务器，但是访问不了网页\n- 赛风：正常连接，速度尚可\n- 蓝灯：连接上但不稳定，速度极低常常无法访问，提示连接被重置\n- 某商业 Shadowsocks 服务：连接正常\n\n杭州移动：\n- 无界：正常连接\n- 自由门：正常连接\n- 赛风：无法连接\n- 蓝灯： 正常连接\n- 某商业 Shadowsocks 服务：连接正常\n- Freenet Opennet：性能明显减低，连接数减少\n- Tor -meek-amazon：正常连接\n- Tor -meek-azure：正常连接\n\n看起来移动下挂掉的情况不是很严重，电信还是挺严重的，不过至少还能用。",
+			"added": 1465025780,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 4,
+			"title": "杭州移动开始间歇性干扰境外 UDP DNS",
+			"body": "前几天发现 DNS 劫持和 139 首页后觉得 ISP 自带的 DNS 靠不住，就开了 DNSCrypt ，结果这两天开始间歇性全体网站上不去。本来想到是这两天装了 IIS 的原因，后来发现卸载 IIS 问题依旧，就以为是 DNSCrypt 自带 Bug ，卸载 DNSCrypt 后设置 Google Public DNS、OpenDNS 和 V2EX DNS 后问题依旧，尝试 Ping 这几个 DNS ，Google Public DNS 丢包率较高但是能通、OpenDNS 和 V2EX DNS 均能 Ping 通，尝试但是无法解析，尝试 114DNS 和 DHCP 分配的 DNS 可以解析但是有部分域名解析出的 IP 不对，尝试 Google Public DNS、OpenDNS 和 V2EX DNS 的 TCP 解析均正常而无污染，故开启 TCP 方式解析 DNS ，终于正常了。",
+			"added": 1465307789,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 5,
+			"title": "anonfiles 文件分享服务挂了",
+			"body": "anonfiles.com 曾是最好用的匿名网盘之一，首先它 HTTPS 而且不记录下载者信息，其次它没被墙，最为关键的事它在墙内几乎能满速。\n\n然而，前一段时间开始，它的下载速度变成了 50k/s 左右；后来，在 Chrome 中提示检测到恶意软件，现在，它无法访问了。\n\n真希望是临时的服务器维护，但是看到最近的异常现象，难说了，唉！",
+			"added": 1466890316,
+			"parent_topic_uri": "19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 6,
+			"title": "Lantern 搞得这个工具啊！so excited!",
+			"body": "自己购买的 Shadowsocks 服务最多看 2k YouTube，高峰时期 2k 都有点卡 ，4k 卡得飞起，而使用 Lantern 看 YouTube 4k 毫无压力。\n\n不知道是不是很多人都用不了 Lantern 的原因，如果在移动网下继续保持稳定，考虑以后不购买 Shadowsocks 服务了。",
+			"added": 1467871114,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 7,
+			"title": "Wine ShadowsocksR",
+			"body": "Wine 官方 PPA 安装 winehq-devel\nwinetricks 更新到最新版，安装 dotnet40 和 wininet\n运行 ShadowsocksR-dotnet4.0.exe\n表示可以使用，但是性能并不是很好\n\nShadowsocks 原版用该方法报错：\n`Shadowsocks 错误：请求不被支持。`\n不知道为什么 \n\n我知道有 Linux 平台可以运行的版本，就是觉得功能太少。",
+			"added": 1473274176,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 8,
+			"title": "ZeroNet 与 Freenet 对比",
+			"body": "|对比项目|ZeroNet|Freenet|\n|-|-|-|\n|历史|2015年|2001年0.5后被封，2011年重写0.7|\n|构建语言|Python，下载时自带运行环境|Java，需自行下载 32 位版本运行环境|\n|匿名性|默认不考虑，可通过整合的 Tor 实现|通过小世界网络实现|\n|连接类型|TCP|UDP|\n|外部端口|默认15411|安装初始化时随机指定|\n|缓存加密|没有考虑|内建加密，可自选访问保护措施|\n|页面 JavaScript|可用，使用 CoffeeScript 编译|被筛选器过滤|\n|论坛|使用 JavaScript 与分布式的数据库实现|通过插件或外部程序读取和插入键值实现|\n|页面载入时间|较短|很长|\n|内存占用|一般|较大|\n|CPU 时间占用|较小|很大|\n|内容淘汰机制|访客主动删除站点缓存|无人访问后被挤出数据存储|\n|数据下载性能|速度较高，但不适合大文件|速度很低|\n|生态系统|多样化|儿童色情占比大|\n|缓存管理|用户访问的内容决定缓存的内容，缓存大小由访问内容的多少决定|用户的缓存与周围连接的节点有关，大小由用户自行限制|\n|本地化|控制台未进行本地化|控制台已被翻译成多种语言，用户可参与|\n|暗网模式|未提供，有计划支持|已提供|\n|侧重点|注重性能与灵活性|注重整体安全性|\n|可配置项|较少，通过命令行参数|较多，通过配置文件或控制台高级模式|\n|域名|通过 NameCoin 实现|不支持|\n|API|通过页面中的 CoffeeScript 访问|通过软件调用 FCP|\n\n共同点\n- GPLv2\n- 建立一个抗审查的网络\n- P2P\n- 支持 Windows / OS X / Linux 与更多 POSIX 兼容操作系统\n- 移动平台不友好",
+			"added": 1474307761,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 9,
+			"title": "免费翻墙工具不严格对比",
+			"body": "|翻墙工具|开发者背景|类型|参考PING（电信）|参考PING（移动）|参考下行（电信）|参考下行（移动）|参考上行（电信）|参考上行（移动）|\n|-|-|-|-|-|-|-|-|-|\n|无界浏览|美国无界网络公司/法轮功学员|HTTP隧道代理|186ms|215ms|4.56Mbps|40.27Mbps|2.91Mbps|0.97Mbps|\n|自由门|全球网络自由联盟/法轮功学员|HTTP隧道代理|1191ms|218ms|0.52Mbps|22.06Mbps|0.25Mbps|2.24Mbps|\n|赛风|加拿大多伦多大学/公民实验室|HTTP隧道代理/VPN(L2TP/IPSec)|Timeout|252ms|Timeout|25.96Mbps|Timeout|254Mbps|\n|蓝灯2|美国国务院资助|HTTP隧道代理/Socks代理(Unable)|Mid|Fast|1080p|2160p|3.5Mbps|5.5Mbps|\n|萤火虫|基于meek技术的开源软件|HTTP隧道代理/Socks代理|Timeout|454ms|Timeout|4.37Mbps|Timeout|0.25Mbps|\n|XX-Net|基于GAE代理的开源软件|HTTP代理（不支持隧道）|336ms|204ms|24.43Mbps|33.07Mbps|19.57Mbps|9.42Mbps|\n|Opera VPN|Opera公司/现疑似奇虎360公司控制|内置浏览器隧道|Timeout|271ms|Timeout|23.17Mbps|Timeout|7.22Mbps|\n\n使用同价位非商业宽带测试，测试环境已部署Pcap_DNSProxy以避免DNS污染，由于翻墙工具的节点搜索技术与DNS有关，使用不安全的DNS可能会影响翻墙软件的可连接性。\n测速方法：speedtest.net\n注：由于 Lantern 勾选代理全部流量后依然不会代理 speedtest.net 的测速服务器的流量，所以 PING 使用访问网站主观响应速度代替，参考下行使用 YouTube 流畅看的最高画质代替，参考上行使用 Dropbox 上传文件速度估计。\n\n那么，电信线路能不能通过使用 XX-Net 作为前置代理获得高带宽呢？经过测试，由于 XX-Net 的代理并不是隧道代理，所以 XX-Net 并不能作为其他翻墙工具的前置代理。",
+			"added": 1476215230,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		}
+	],
+	"topic_vote": {
+		"5_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": 1
+	},
+	"next_comment_id": 139,
+	"comment": {
+		"1_12ULL9ktLcmzYQtuMhZF95v6cjf1Qqtcxu": [
+			{
+				"comment_id": 1,
+				"body": "会有的，别急。",
+				"added": 1462186394
+			},
+			{
+				"comment_id": 6,
+				"body": "左转 Freenet ，感觉 ZeroNet 搞儿童色情不是很合适，一个是它默认不提供匿名性，对于大多数欧美国家是必备特性。第二个是它目前不为抗封锁设计，到时候 GFW 轻轻松松把 ZeroNet 的种子服务器给墙了。",
+				"added": 1462620327
+			},
+			{
+				"comment_id": 12,
+				"body": "> [fucker](#comment_1_1jUptbq8ntG1ufEencVYFXSxaRvXt9qSb): 估计以后会搞DHT\n\nDHT 也只是更好地去中心化，还是不能解决协议特征被检测出来然后被墙的问题，参考 Freenet 0.5 。再说 Freenet 还采用了主密钥加密的机制，Zeronet 在本地存储时根本没加密，差太远，欧美国家的水深火热的人民不敢用。\n当然，我觉得配合 Tor 使用比 .onion 网站好太多，毕竟 .onion 网站的服务器是中心化的，一查水表就挂了。",
+				"added": 1463406767
+			},
+			{
+				"comment_id": 17,
+				"body": "> [otaku](#comment_2_1E76pWEx5MV4FDV7bD3GLAPCkXw7Tfu9Au): 深网以前真的有，但后来我上不去了，唉，现在不知道去哪里找啊\n\n现在用 meek 网桥可上 Tor，Tor  上的公网深网都有，不过公开的 .onion 网站也就这水平。\n\n明网论坛：\n全球正太论坛：http://shotaboys.net\n爱萝莉社区：http://luoli360.com\n漆黑正太社区：http://www.5idd.biz\nboyxzeed（泰文）：http://www.boyxzeed.net\n幼稚园：http://bgtlz.pro\n\nonion 论坛：\nBoy Vids v4.0：http://boyvidscckevqedz.onion\nBaby Heart：http://babyixntjlabwkpi.onion\nMagic Kingdom：http://njwzqbbwt5wpenog.onion\n\n网址导航：Central Park：http://boysopidonajtogl.onion\n\n真正的不对外公开的暗网这里不公开了，如果你对此感兴趣可以找相关的人问。",
+				"added": 1463566011
+			}
+		],
+		"2_1Ctx84Qoq2wzcdbJ73FyRL12weUPjpRpBk": [
+			{
+				"comment_id": 2,
+				"body": "可以打开。",
+				"added": 1462186551
+			}
+		],
+		"1_1A5Uw4pejzgKx4c3yZkz8whBcqMaypp1Wo": [
+			{
+				"comment_id": 3,
+				"body": "Zeronet 既不为匿名性设计，也不为抗封锁设计，现在能访问仅仅是还太小众。",
+				"added": 1462618101
+			}
+		],
+		"2_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 4,
+				"body": "我是用 Proxifier 实现对那个脚本进行代理的。",
+				"added": 1462618878
+			}
+		],
+		"8_12kgNNnBaR3s7bN761BCQtkzSC7EbrK2Jd": [
+			{
+				"comment_id": 5,
+				"body": "广告商呢？怎么统计点击？",
+				"added": 1462620033
+			}
+		],
+		"1_1ATwnnMmnWF2NWdaEBDMxzjFNMghixLBKE": [
+			{
+				"comment_id": 7,
+				"body": "> [hand](#comment_26_1LHdPBTEdLuBDgLcfqZtNwSTMec3EgejiM): 附议。很多 zeronet 用户脑子好像秀逗了，只知道用色情内容甚至儿童色情来推广 zeronet？有这个念头的人还是尽早放弃吧！\n> 这样很容易被支那共匪利用，对 zeronet 进行污名化。zeronet 是一个很有潜力的地方，不应该浪费在色情内容上！\n\n实际上 ZeroNet 做大后一定会被污名化，因为他们也可以自己建相关站点啊！参考当年的 Google 。",
+				"added": 1462620500
+			}
+		],
+		"1_1M54tXvq9WvmbAPBDdwCx72ZxQpeQdMCzw": [
+			{
+				"comment_id": 8,
+				"body": "> [nassau](#comment_115_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd): 相比freenet,  zeronet 的优势是啥？\n\n可以创建动态网页实现评论等功能，在 Freenet 上 JavaScript 都不允许。性能好，因为不需要像 Freenet 为了匿名性在节点间中转。总的来说 Freenet 为了匿名性和抗封锁性能牺牲了太多。",
+				"added": 1463391934
+			}
+		],
+		"16_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": [
+			{
+				"comment_id": 9,
+				"body": "电脑上用 Windows Defender ，手机上不用。",
+				"added": 1463392063
+			},
+			{
+				"comment_id": 37,
+				"body": "现在暂时改为火绒了。",
+				"added": 1464955473
+			}
+		],
+		"21_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": [
+			{
+				"comment_id": 10,
+				"body": "不喜欢 7 8 10 的试试 Vista ？在不然就换 Linux 家族咯！",
+				"added": 1463392171
+			},
+			{
+				"comment_id": 53,
+				"body": "> [timeout](#comment_93_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf): XP简洁，窗口边缘清晰，闭着眼甩滑鼠都可以关窗口\n\n新系统用 XP 的主题应该是可以的，还有，闭着眼用鼠标关窗口难度确实有点大，键盘还可以试试。",
+				"added": 1465274676
+			}
+		],
+		"7_1HK5C3Uf8zvbbSb92ZP6EsfHKC59MXDcK9": [
+			{
+				"comment_id": 11,
+				"body": "目前我用 QQ 国际版，倒是没看见读写这些文件，但是读写 MFT 和 NTFS 卷日志我还是慌慌的。",
+				"added": 1463392870
+			}
+		],
+		"1_15DeXsYnxRPw5ECbh234cX6cfEurNUvyj3": [
+			{
+				"comment_id": 13,
+				"body": "> [nassau](#comment_110_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd): 到这里了就真没必要自我审查了， 色情是人性的需求， 这没有啥不要意思的， 主要的问题是这里没法分级， 能避免小孩子看到就最好\n\n小孩子也是人啊！也有人性的需求啊！为什么要避免小孩子看到？",
+				"added": 1463406890
+			},
+			{
+				"comment_id": 26,
+				"body": "> [oppaidaisuki](#comment_3_1Mrju4NAeozAdfeGwjCXSSez1NJKxGoNDH): 我想问一下....未成年人真的会知道zeronet吗？好学生的话在初中高中这六年都会好好学习，基本不怎么接触网络的，或者说对电脑感兴趣而且具备一定科学上网能力的娃才有可能知道这里，而且到了大学基本都是成年人了\n\n对“好学生不怎么接触网络”这个观点表示反对。而且 ZeroNet 目前不需要翻墙，再说翻墙是全民必备技能了（好吧最早是为了访问学校机房屏蔽的网站）",
+				"added": 1463917039
+			},
+			{
+				"comment_id": 94,
+				"body": "> [19](#comment_21_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY): 反共无所谓,成人内容必须禁止.\n\n问题是你也禁不了别人访问，最多你自己不看不给人做种。",
+				"added": 1472318298
+			},
+			{
+				"comment_id": 97,
+				"body": "> [19](#comment_29_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY): 不做种的人多了就没有人看了。所以我号召大家都不要给不好的内容做种。\n\n想太多，ZeroNet 的设计就是想看的人给想看的人做种，想看的人自行会做种的。",
+				"added": 1473253718
+			}
+		],
+		"1_1A9e5YYegRZ8HA6ns8iSE4C8Ze6c2Ct49s": [
+			{
+				"comment_id": 14,
+				"body": "我这边 obfs4 和 scramblesuit 本来可以用，突然死了，meek-azure 和 meek-amazon 一直可以用。",
+				"added": 1463557193
+			}
+		],
+		"9_14kpMFXkLerqtvXM9rywW8h7rdLEBYz9FS": [
+			{
+				"comment_id": 15,
+				"body": "我想知道相比 Freenet 和 Prefect Dark 有哪方面的优势？",
+				"added": 1463557292
+			}
+		],
+		"1_197rZZrY6sHsYEQ9U1bJEq51M6R4oyhRRS": [
+			{
+				"comment_id": 16,
+				"body": "我感觉你的问题和出口流量巨小有关，现在电信上 GitHub 已经半分钟也不一定打得开完整页面了。",
+				"added": 1463558565
+			}
+		],
+		"1_12nosggn5KYWFu3SmxcJUzdi98WGPrKaki": [
+			{
+				"comment_id": 18,
+				"body": "2016-05-17 \n 1:03:14 \nZeroNet第一交流群(556842219)管理员.游侠儿 evil<lbx168@qq.com>已拒绝了您的加群请求。\n拒绝理由: \n(无)",
+				"added": 1463566608
+			}
+		],
+		"1_1DHkQscdoSbZzEFER6om5yB523MC5mdrdB": [
+			{
+				"comment_id": 19,
+				"body": "虽然是说好的 P2P 但是作者貌似并没把匿名性和封锁性作为目标，作者的意思差不多就是让你有必要时挂着 Tor 用吧！比如单纯用 Tor 还是有很大优势的，毕竟 Tor 上的 .onion 网站的服务器不是去中心化的，一旦被查封网站就挂了。",
+				"added": 1463566995
+			}
+		],
+		"6_18hidquEH7k6Dnn5MDd4zJFJ2cTUF22wk2": [
+			{
+				"comment_id": 20,
+				"body": "建议你还是不要用，因为看错误明显是故意阻止这么做的，即使找到了使用方法也是 Bug ，修补后就没用了。",
+				"added": 1463583858
+			}
+		],
+		"1_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 21,
+				"body": "> [acey](#comment_10_17himSB7Hfb7uLkTDwHGuYN5DCBgKxYKPW): 需要使用证书黑名单或屏蔽垃圾证书来解决此问题。支持win，max os，android等(除了ios系统外)，android还需要手动禁止一些Cnnic类根证书。https://github.com/chengr28/RevokeChinaCerts\n\n然而屏蔽了证书，还是无法正常使用 HTTPS 访问。",
+				"added": 1463647073
+			}
+		],
+		"1_1NEFxCPTrht31cePYp3qr9JuQ8vQS9jRLq": [
+			{
+				"comment_id": 22,
+				"body": "不看好，不想让这里成为 ZeroNet 版的微商。如果你想搞，请自己建一个站，至于别人愿不愿意来就看你的能力了。",
+				"added": 1463668470
+			}
+		],
+		"2_16s9RYL8i9gtVGWR3iv9mbeLz5v8GM85R6": [
+			{
+				"comment_id": 23,
+				"body": "用 360 是嫌续得不够快么？",
+				"added": 1463720182
+			}
+		],
+		"6_1NL5YZdozXc6ZNzKm78H4SjSMabyzV16YX": [
+			{
+				"comment_id": 24,
+				"body": "我觉得加 tag 比分版好，比较灵活。",
+				"added": 1463807846
+			},
+			{
+				"comment_id": 25,
+				"body": "> [lucid](#comment_35_1NL5YZdozXc6ZNzKm78H4SjSMabyzV16YX): 还是受discuz的毒害太深了，看看这个不是多好。http://vanillaforums.cn/\n\n分版又不是 Discuz! 独有的，PHPWind、phpbb、以及 Freenet 上的 Frost 和 FMS 都分版啊！",
+				"added": 1463807915
+			}
+		],
+		"6_151WPNwj3iBqVoFtMNxfqdFFrj546SoW3t": [
+			{
+				"comment_id": 27,
+				"body": "感觉可能性不大，毕竟 Google 的 IP 有限，要分布式扫可以在骨干路由器上扫，再说是开源的。",
+				"added": 1464073078
+			}
+		],
+		"2_1BjBjgzWiY58V9Qbm7VqJ7w9UNYk7KACW1": [
+			{
+				"comment_id": 28,
+				"body": "蓝灯是什么背景？\n - 据说是美国政府与 Google 资助，但是没有参考资料可以可靠证明；\n蓝灯的大量ip是那个国家的？\n - 在中国连蓝灯日本 IP 居多，我猜测和中国到日本的带宽和延迟性能不错所以选择的；\n他是如何盈利的？\n - 不知道。但我估计由于是 P2P 的所以项目本身成本不大所以随便找人捐点；\n不是轮子的有一个风投项目吧？\n - 不了解，但是我没看见过它宣传轮子的内容，而翻墙看轮子的本来就不多，感觉搞这么个项目对宣传轮子没帮助。",
+				"added": 1464073689
+			},
+			{
+				"comment_id": 67,
+				"body": "> [fuckgcd](#comment_44_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 轮子自己不就有个自由门吗？蓝灯有美国政府支持\n\n我很想知道为什么有很多人说蓝灯是美国政府支持的呢？因为我找不到比较靠谱的资料说明。",
+				"added": 1465642102
+			}
+		],
+		"5_16GNeHFpN3X1NaWBUJKXJ16eGYAwsfP8qF": [
+			{
+				"comment_id": 29,
+				"body": "非 UTF-8 下乱码而且经常失败。",
+				"added": 1464074787
+			}
+		],
+		"1_15tojHK9x7JSJYPZozDvqx77qRg1iCBoGi": [
+			{
+				"comment_id": 30,
+				"body": "PPTP/L2TP/OpenVPN 封锁比较严重。",
+				"added": 1464116146
+			},
+			{
+				"comment_id": 31,
+				"body": "PPTP/L2TP/OpenVPN 封锁比较严重。",
+				"added": 1464116173
+			}
+		],
+		"3_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 32,
+				"body": "> [fuckgcd](#comment_8_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 不是啦ww只是经常听说所以感到好奇想看看而已啦ww\n\n去 Freenet 看看吧！freenet:USK@qAPdp4VZVGeymlwEnWSlZPbN00GKA6NNkhDjSRQnFBM,YnR9XUuw5KeZ2O9iNXUirreH4uO7gJS2yHAJ0TMxk4E,AQACAAE/clf_child_porn_index/21/",
+				"added": 1464711084
+			}
+		],
+		"1_1LSu8MH4cN6cncmHaaR54N9YrtbzAvkwzk": [
+			{
+				"comment_id": 33,
+				"body": "这个方法很好使，缺点就是流量费太贵。\n然而对于新疆当年的情况，这种方法也没用。",
+				"added": 1464765424
+			}
+		],
+		"7_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 34,
+				"body": "ZeroNet 默认没匿名性，不隐藏 IP  ，只有启用了 Tor 才隐藏 IP 。",
+				"added": 1464765525
+			}
+		],
+		"2_1DzpF7398yNGjFwHQqHAu9fRkbE3WZ6dZA": [
+			{
+				"comment_id": 35,
+				"body": "> [killsnake123](#comment_3_18GTFHnYdT6yY1WU6Dobc8GWHJfwk7SrTP): .....直接外链图片和视频吧。目前的设计来看，论坛里所有的东西都是每个用户本地存一份。没有那么多空间来弄的\n\n外链带来了两个问题，一是图片和视频不是去中心化的，二是容易被外链的站点搜集系统信息，影响匿名性。",
+				"added": 1464765708
+			}
+		],
+		"1_1PvuX8HD3uoKanDSBvicJvXHuqSC1TSBsp": [
+			{
+				"comment_id": 36,
+				"body": "我记得有个膜蛤站：eroz.bit",
+				"added": 1464766040
+			}
+		],
+		"1_1KD5RNhENCLPoTHJdNYERyCWisVT7ATD4C": [
+			{
+				"comment_id": 38,
+				"body": "> [goldenknight](#comment_18_16k88HJonuqBRs3Cweb4BuB6A5QZaJ12mC): i2p现在很快了吗? 比给TOR加前置代理如何?\n\n根据我这里的测试结果，I2P 目前并不快，倒是 Tor 的性能有很大提高。",
+				"added": 1464977257
+			},
+			{
+				"comment_id": 76,
+				"body": "> [steamer074](#comment_14_14mcwQnq3qt3VKj5PEXjimRy9mbSMsMoun): tor新人很难连上，i2p需要seed，翻个墙基本可以用，就是速度超慢。\n\n根据测试，Tor 还是挺容易连上的，只要你会翻墙挂个前置都可以，不会的话用自带的 meek 大多数地区还是能用，而且目前性能已经可以接受一般的网页浏览了。倒是 I2P ，首先自带的节点都被封了，然后由于有人 DDoS 用于补种的 NetDB ，基本上把公用代理都给屏蔽了，所以 reseed 有困难，而速度依然出奇得慢，内网资源少而外网只有一个出口，所以不建议给新人先推荐 I2P 。\n\n还有就是新人本来就没什么安全意识，Tor 自己基于 Firefox 定制的浏览器能一定程度上保护匿名性，而 I2P 貌似还没有这方面的努力。\n\n还有 Tor 的用户基础好，用的人多，一定程度上增加了混淆度。",
+				"added": 1466349450
+			}
+		],
+		"4_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt": [
+			{
+				"comment_id": 39,
+				"body": "金胖子的话，大家听听笑笑就好。",
+				"added": 1464978681
+			}
+		],
+		"1_1KwF7Y9SQ6BeLSgAST4Et56X7v1RGEsNEz": [
+			{
+				"comment_id": 40,
+				"body": "Shadowsocks 在设计之初就只考虑了混淆流量防 GFW 自动检测，并没有考虑匿名性。\n如果你使用自建的 Shadowsocks 用，那么基本上也只有你和你的朋友，一查就查出来了。",
+				"added": 1465023109
+			}
+		],
+		"8_1HK5C3Uf8zvbbSb92ZP6EsfHKC59MXDcK9": [
+			{
+				"comment_id": 41,
+				"body": "这种验证机制本来就是看你底裤用的，见怪不怪。",
+				"added": 1465024553
+			}
+		],
+		"7_144GQ5Uz9dYQJ1MwjSFWWboLgHwdGpv21x": [
+			{
+				"comment_id": 42,
+				"body": "自己架局域网没问题，然而你要与目前的 Internet 连接还是要在一个地方接入，所以必须要与 ISP 配合，即使是到一个终端用户那里接入，最终还是要经过 ISP ，不符合要求。\n所以你如果是想实现个几台设备相互连接的“互联网”，那是可以的，而如果想接入 Internet，就不行了。",
+				"added": 1465025170
+			},
+			{
+				"comment_id": 90,
+				"body": "> [frog](#comment_2_1D9PFKqnik1Z4JtDZnYhyQERZAu5ZiXqFX): 我其实对未来的互联网设想过，大概如此：基于远程无线电通信，每个网络设备本身即是terminal又是router, 网络层推倒重来，采用flat的mesh这种拓扑, 抛弃IP地址的概念，而采用某种session内有效的token来标识设备（从根本上实现匿名）。 想象一下，以后每个人手中的手机都可以与周围几公里甚至更远的人直接通信，如此连接而成的网络，应当很难封锁吧，那时信息的流动会更自由，高效。\n\n频带不够，高频又很难传远。",
+				"added": 1471194463
+			}
+		],
+		"1_1LTbyAkCarDCq7jtcEHXptbJwRE8TpKJSQ": [
+			{
+				"comment_id": 43,
+				"body": "GNU 信徒和飞面神教信徒。",
+				"added": 1465025247
+			}
+		],
+		"3_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 44,
+				"body": "补充：杭州电信：Tor 下 meek 网络连接瞬间失败。",
+				"added": 1465025957
+			},
+			{
+				"comment_id": 45,
+				"body": "补充点，某商业 VPN 和 Shadowsocks 的 DNS 这两天被劫持了，是劫持不是污染，因为用 Google Public DNS 可以解析，但是丢包率有点高。",
+				"added": 1465053401
+			}
+		],
+		"7_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 46,
+				"body": "免费还想速度快还想用 BT ，不是没有，是差不多被墙光了。",
+				"added": 1465053520
+			},
+			{
+				"comment_id": 110,
+				"body": "我的建议是让有公网 IP 的朋友给你开个 VPN 并设置好 DDNS 和端口转发。如果你用的正规宽带一般说装监控可以给你个公网 IP 的。",
+				"added": 1474089794
+			},
+			{
+				"comment_id": 111,
+				"body": "> [sutra](#comment_66_13Xd2FuuSKJkdmdKvJ4k37rVg8W7jUu41i): 要么限速要么限流。BT 的话选择限速的吧，用时间换取高价的流量。BT 下载还可能会遇到版权问题，这会连累 VPN 服务器。另外，为什么不用 Tor 呢？\n\n很明显他是嫌没公网 IP 部分节点不能连接性能差，用了 Tor 不仅没解决公网 IP 的问题还把性能差的问题带来了。",
+				"added": 1474110617
+			}
+		],
+		"1_1DmGsXFPPexxcuTRgYZxDRHqGA7CbR3j14": [
+			{
+				"comment_id": 47,
+				"body": "杭州移动表示蓝灯稳如狗，检查下是不是某些加驱软件搞的鬼。",
+				"added": 1465123116
+			},
+			{
+				"comment_id": 51,
+				"body": "> [vonnov](#comment_8_1DmGsXFPPexxcuTRgYZxDRHqGA7CbR3j14): 当前工作AppID:my-auto-13132|soy-envelope-1333017|auto-011|auto-021|auto-013|hcrauto11|hcrauto112|hcrauto113|hcrauto114|hcrauto115|hcrauto611|hcrauto117|hcrauto18|hcrauto19|hcrauto110|hcrauto111|hcrauto12|hcrauto113|hcrauto141|hcrauto115|hcrauto161|hcrauto171|hcrauto118|hcrauto191|hcrauto201|hcrauto211一口气一个账号26个id,不过要用最新版的xx-net,不然不能激活.....\n\n由于证书问题，我还是不太敢用 GoAgant 类代理作为常用翻墙方式。",
+				"added": 1465225698
+			}
+		],
+		"1_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 48,
+				"body": "我喜欢 6～12 岁长得比较可爱的这样吧！年龄可以适当放宽。",
+				"added": 1465123412
+			},
+			{
+				"comment_id": 49,
+				"body": "> [fuckgcd](#comment_30_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 呃。。好像未成年诶。放这个不会被查吗\n\n上 Tor 应该问题不大。",
+				"added": 1465224786
+			}
+		],
+		"1_14mcwQnq3qt3VKj5PEXjimRy9mbSMsMoun": [
+			{
+				"comment_id": 50,
+				"body": "见怪不怪，当年别人说 Google 由于企业要用中国政府不敢封还不是封了？何况一个小小的 Steam ？",
+				"added": 1465225306
+			}
+		],
+		"31_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": [
+			{
+				"comment_id": 52,
+				"body": "> [galliano](#comment_31_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt): dns服务的问题在于如何甄别真假ip，什么样的解析源是可信任的，p2p解决不了这个问题。\n\n基于区块链，能一定程度上解决的。",
+				"added": 1465274537
+			},
+			{
+				"comment_id": 57,
+				"body": "> [galliano](#comment_32_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt): 那就不叫DNS了，整个互联网的运行基础都得改变。防止DNS信息被任意篡改的方法就是只有owner及其授权人才能发起变更。有这种机制，方滨兴这种鸡鸣狗盗之徒就只能吃屎去了！\n\n我说的就是 NameCoin ，DNS 不过是个高层应用，用什么方法对互联网的运行基础都不会有太大影响，做得好的话比从 IPv4 切换到 IPv6 还容易，如果你能找个地方随时把可靠的域名记录拿过来用，怎么解析都不影响。\n目前的 DNS 主要问题是劫持与污染至于劫持问题你得自己找个靠谱的服务器，污染问题由 DNSSEC 来解决。",
+				"added": 1465415204
+			},
+			{
+				"comment_id": 60,
+				"body": "> [galliano](#comment_33_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt): DNSSEC只能解决DNS信息在传输过程中被篡改好不好？它根本解决不了污染问题。还有“找个地方随时把可靠的域名记录拿过来用”，你不过是假装那个地方可靠而已，判断的依据只不过是跟原来用的不同而已。然而你找的的那个所谓可靠的地方一定可靠吗？比如google的服务器IP，可能可用，但未必最适合你。你在亚洲，拿到的解析地址可能是北美甚至是欧洲的。更说不定是别人fake的，你根本就无从判断。但凡是很轻巧的抛出一句“容易”的人，我想有又碰上个无所不知的superman，您自个继续！\n\nDNSSEC 确实只能解决信息在传输过程中被篡改，不过我的理解里所谓的 DNS 污染就是指这个。我说找个可靠的地方也只能说是相对可靠，毕竟至少你要至少信任一个人或者机构可靠不可靠才能判定其他人可靠不可靠，不然操作系统就不用内置信任的根证书了，虽然确实无法保证那些机构绝对可靠，即使使用这币那币还有 51% 攻击呢！至于找到的解析地址是不是适合你本来就是 DNS 服务器没处理好的锅，为什么推到 DNS 系统本身的问题上？目前 P2P 的应用很多依然没保证走的是性能最优的线路啊！如果你不信任任何人或者机构还要保证解析到的地址一定没有问题，我估计你要线下亲自去相应的网站的公司或组织去查询，顺便交换个公钥，虽然这不太现实。",
+				"added": 1465447749
+			},
+			{
+				"comment_id": 133,
+				"body": "> [galliano](#comment_52_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt): 晕，你真的懂你发的这两行文字么？！\n\n主要是对 DNS 服务器对传输的 DNS 结果进行了签名，如果接收后发现与权威 DNS 的签名不一致，那么可以确定传输过程中信息被篡改，然后丢弃信息。\n这样一来，确实保证了请求的 DNS 结果与权威 DNS 一致，所以想污染最大能做到的也就是无法完成 DNS 请求，这确实依然导致了无法访问响应的站点，但是处理掉了安全问题，想做到访问还要想其他办法。",
+				"added": 1475856507
+			}
+		],
+		"4_1Fv1xGsCxVzHNkCyCMLkJsXaqHSqc5VS45": [
+			{
+				"comment_id": 54,
+				"body": "> [hxy](#comment_14_15TtVbimoEwzsJr1fy3V6i5aKz8ScwVu1M): 法轮功为了黑，使劲地拉低大家的智商下限，我作为一个共黑都看不下去了。开发的自由门翻墙软件，动不动就跳出动态网，大纪元啥的各种花式屌呆逼新闻，真心没法用。信法轮功及其各种宣传的人，除了傻屌就是傻屌。\n\n你也别黑了，这两年无界和自由门都不再主动弹动态网了，况且是免费的弹弹我觉得还可以接受。",
+				"added": 1465275056
+			},
+			{
+				"comment_id": 61,
+				"body": "> [zerolove](#comment_10_1NWvEnweVq9V86yDiyug7om69g7y26fTGR): 我就搞不懂了，   中G洗脑 洗出来这么多  脑袋装石头的夹头青年。       法轮功 怎么了。  杀人放火还是 逼良为娼 还是买官卖官草菅人命了？   在这里混荡的 别跟我说你还信 新华社的 法轮功自焚视频。     既然 法轮功 没做恶 ，   怎么到这些夹头青年 这里，  竟然描述的十恶不赦。    病的不轻啊。\n\n从来不信中共那套，不过法轮功反对同性恋，所以还是不怎么看好法轮功。",
+				"added": 1465449905
+			}
+		],
+		"4_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 55,
+				"body": "> [fido](#comment_74_1Nbt7FB5ChZWm2sEdn2yyGQyQhjsKtqW1N): 开启 TCP 方式解析 DNS，是如何开启的？\n\n我是用 DNSCrypt 的。",
+				"added": 1465414624
+			},
+			{
+				"comment_id": 56,
+				"body": "> [niconiconi](#comment_3_1JHXXGVpX7cWXZ3SFXYJ96n6hF5kcjNJvE): UDP污染早就有了   DNS还是默认的快\n\n默认的确实快，但是有两个问题，一个是遇到无法解析或者人家不愿解析的域名就返回个 139 导航的 IP ，根本看不到错误信息，还有移动是自带了一个小墙的，很大程度上是通过对 DNS 下手实现，如果解析到的 DNS 没问题可以不用代理访问许多网站，比如最近被墙的 Tumblr 。",
+				"added": 1465414835
+			},
+			{
+				"comment_id": 59,
+				"body": "> [goldenknight](#comment_30_16k88HJonuqBRs3Cweb4BuB6A5QZaJ12mC): 最无良的应该是中国电信。奸商中的奸商。100M的翻墙也是各种各种干扰，最后只能放弃，只能看国内的。\n\n电信最大的问题就是上行太小以及出口带宽太小。",
+				"added": 1465446664
+			}
+		],
+		"3_18RcEeQREmmNSQDXyeEz3jzwkz1V8YuDU8": [
+			{
+				"comment_id": 58,
+				"body": "请问你在服务器地址里面填写的是域名吗？根据我的测试，很多 Shadowsocks 的域名被污染，而直接填写 IP 连接并没有问题。",
+				"added": 1465446423
+			}
+		],
+		"3_157d61UG24B66Yw2qwEQWY7yFAWp1HoAST": [
+			{
+				"comment_id": 62,
+				"body": "> [nassau](#comment_85_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd): 独裁制造sb， sb拥护独裁， 闭环\n\n同意。",
+				"added": 1465450052
+			}
+		],
+		"1_12kgNNnBaR3s7bN761BCQtkzSC7EbrK2Jd": [
+			{
+				"comment_id": 63,
+				"body": "目前其他地方上网想临时搞个翻墙软件用基本就去 GitHub 了，然而在电信下访问非常慢。",
+				"added": 1465450568
+			}
+		],
+		"10_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 64,
+				"body": "> [fuckgcd](#comment_45_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 推荐你用syncthing 免安装 没有注册表 重点是开源的 我不太信任闭源的东西\n\n我来说说 Syncthing 吧！的确比较喜欢开源的东西，问题还是比较多的，最大的问题是内网穿透能力比 Bittorrent Sync 差，其次是工作时一直要开着个黑窗而且没通知图标，解决方案是使用 Synctrayzor ，然而这东西在一些国产杀软上报毒，导致跟别人分享资源老是抱怨，所以我对外分享资源用 Bittorrent Sync ，对内多设备同步用 Syncthing 。",
+				"added": 1465641522
+			},
+			{
+				"comment_id": 70,
+				"body": "> [fuckgcd](#comment_47_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): Bittorrent Sync 怎么把东西上传（文件放在文件夹里总是没有用户）。btsync是像emule一样需要把文件放在自己硬盘里才能分享吗？我想看能不能把btsync当成网盘（因为btsync无限制容量免费我想看能不能当网盘用。付费网盘太烧钱了）\n\n你将文件分享给别人，达到一定同步人数后放完文件同步完就关机也是没有问题的。\n如果你是以分享型网盘而不是同步盘为目标的，建议使用 Perfect Dark 类的工具，那个传完就可以直接关，不过要是一定时间内没人下就没了，而且只要占用 40G 缓存。\n存储空间不会凭空产生，只有你要存的东西对别人也有价值，别人才会给你帮你存。",
+				"added": 1465811301
+			}
+		],
+		"2_1DmGsXFPPexxcuTRgYZxDRHqGA7CbR3j14": [
+			{
+				"comment_id": 65,
+				"body": "网卡顺序是什么鬼？网关跃点？",
+				"added": 1465641619
+			},
+			{
+				"comment_id": 69,
+				"body": "> [youta](#comment_8_17EvTkS8Jt3QPqmtoHFfNJsPKBJMgdctDA): 大概指wlan优先还是lan优先之类的\n\n那就是改跃点咯！",
+				"added": 1465810551
+			}
+		],
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 66,
+				"body": "不兼容老 IE 的问题就算了吧！严重增加代码量而且用户的安全也得不到保证（漏洞超多），而且即使非管理员权限一般也可以自己下个绿色版的浏览器用还不影响原来的老 IE，不像操作系统还各种兼容性问题不方便升。",
+				"added": 1465641911
+			}
+		],
+		"13_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 68,
+				"body": "很正常的现象，我觉得没必要忏悔。",
+				"added": 1465648029
+			},
+			{
+				"comment_id": 71,
+				"body": "> [fuckgcd](#comment_49_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 重点是小女孩！！！因为我看见小女孩很可爱时头脑里的第一反应是想啪啪啪然后就硬了。所以我怀疑自己是不是恋童癖\n\n我以为我已经确定自己恋童了，不过更喜欢小男孩，年龄也更小点。\n十二三岁不打紧哈！最低合法性交年龄在十二三岁的国家也不少见，但是更小的就很少见了。",
+				"added": 1465811444
+			},
+			{
+				"comment_id": 72,
+				"body": "> [fuckgcd](#comment_52_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z): 在日本双方同意下可以和十三岁小女孩性交。话说你是女的吗？\n\n在日本双方同意下可以和十三岁小女孩性交是正解，不过有一些额外限制。我是男的，知道哪儿能找到儿童色情，可以通过 ZeroMail 问我详情。",
+				"added": 1465904726
+			}
+		],
+		"1_12wKuwYfiHRwDxcJhqkcBPrsks2Gmm5L5P": [
+			{
+				"comment_id": 73,
+				"body": "> [p2pwave](#comment_83_1DzpF7398yNGjFwHQqHAu9fRkbE3WZ6dZA): 很多都是专职五毛。不要理会就是了。如果有心的话，也可以研究一下，五毛的荒谬之处。不过，对于那些翻墙不够深入的同学，还是会有一些误导的。包括几年前的我，看六四天安门的纪录片，在加载时，我就先看评论了。导致我很长的一段时间里，多六四的看法都是五毛的看法。直到一两年之后才消除。\n\n现在升级为专职五毛了？我记得以前一直是以体制内的为主的，专职的比较少，自干五倒是挺多。",
+				"added": 1465906697
+			}
+		],
+		"1_1QFfv4XeoCgXurRyg5zSJjoQwQWJsCaQqr": [
+			{
+				"comment_id": 74,
+				"body": "可选文件。",
+				"added": 1466083456
+			}
+		],
+		"1_17fU5e2rmJVufqGZkWPqeWUHfbfTiws875": [
+			{
+				"comment_id": 75,
+				"body": "亲测 meek 和 Shadowsocks 前置代理没死，obfs4 倒是目前封得挺快。",
+				"added": 1466348825
+			}
+		],
+		"4_1QFfv4XeoCgXurRyg5zSJjoQwQWJsCaQqr": [
+			{
+				"comment_id": 77,
+				"body": "打电话给运营商要求公网 IP ，或者弄一个有公网 IP 的 VPN 来连接。",
+				"added": 1466421030
+			}
+		],
+		"3_1J9WW22WGCmbuBaLQajwgMfWNxb8hxX4oP": [
+			{
+				"comment_id": 78,
+				"body": "匿名的 P2P 软件也用过很多了，比如 I2P 的 I2PSnark ，比如 Freenet ，再比如闭源的 perfect dark ，第一个的缺点是性能超差，第二个性能一般，第三个闭源，还要开放一个公网端口。\n不知道这些能不能解决这个问题。",
+				"added": 1466427513
+			}
+		],
+		"1_1H5QZDSikvA4rABNbc6v3QRqJBZf1miJoj": [
+			{
+				"comment_id": 79,
+				"body": "> [cksmowki](#comment_1_1H5QZDSikvA4rABNbc6v3QRqJBZf1miJoj): 你们的TG手机号难道都是+86嘛？好像现在+86的手机号码全部都实名了。\n\n物联网卡不用。",
+				"added": 1466582574
+			}
+		],
+		"33_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": [
+			{
+				"comment_id": 80,
+				"body": "我不是人么？",
+				"added": 1466774256
+			}
+		],
+		"1_1AyZ45qykmPbeoPXpFufcu2aJ6UMYbUADD": [
+			{
+				"comment_id": 81,
+				"body": "内容是加密的，但是知道你连接了哪些节点来推测你浏览了什么，也可以建立一些钓鱼节点，所以如果要匿名还是要借助 Tor 的。",
+				"added": 1467204094
+			}
+		],
+		"6_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 82,
+				"body": "> [idmiu](#comment_5_14K7z2Jz3zmuKfVKRiJxk6xfkUE5MjnN3z): 不是最新版还不能用\n\nP2P 客户端，特别是这种重视安全性的，允许用旧版本安全隐患太大。",
+				"added": 1467401618
+			},
+			{
+				"comment_id": 83,
+				"body": "请去官方网站下载最新版安装程序，并在安装时把安全等级条件至“低”，一般就可以连接了。\n如果还不能连接，请检查以下问题：\n- 被本地防火墙和杀软阻止：请放行后重试（可能需要关闭防火墙/杀软）\n- 禁止 ICMP 包，检查下你是不是连接在一些专门的 Wi-Fi 共享软件下，这种软件为了突破共享限制会阻止部分 ICMP 包，如果是，作相应设置或换软件\n- NAT ，请尝试开启 UPnP 并转发 状态 -> 互联网连接里的端口，不过根据我的测试，好像即使使用对称型 NAT 都能连上，虽然影响一定性能而朋友连接成功率降低",
+				"added": 1467402184
+			}
+		],
+		"2_194s76UVb14yWQdUm5p3tNhBGUtPUKb4RH": [
+			{
+				"comment_id": 84,
+				"body": "还真没找到，不过你可以试用，到期限后卸载重新安装又可以试用了。这软件并不限制这么做。",
+				"added": 1467758402
+			}
+		],
+		"6_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 85,
+				"body": "然后发现好久连不上的赛风也能勉强连上了，自由门更新后又可以稳定连了。",
+				"added": 1467878958
+			},
+			{
+				"comment_id": 102,
+				"body": "> [goog](#comment_1_16W822WuLKwhiqpfnvksAV1sebg9mmJ7Rq): 能用么？现在都收费了，还做广告？\n\n我发这个的时候还没正式推送付费版，而且目前依然可使用无流量限制的 2.x 版，经过测试并没被限速。",
+				"added": 1473599598
+			}
+		],
+		"8_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 86,
+				"body": "测试下企业级 VPN 吧！",
+				"added": 1467962878
+			},
+			{
+				"comment_id": 88,
+				"body": "自建 HTTP/HTTPS 代理：\n39.187.165.176:7777\n39.170.6.13:7777\n\n无界分享：\nhttps://39.187.165.176:444/\nhttps://39.170.6.13:444/",
+				"added": 1467964689
+			},
+			{
+				"comment_id": 89,
+				"body": "基于自由门的 HTTP/HTTPS 代理：\n39.187.165.176:8580\n39.170.6.13:8580",
+				"added": 1467965284
+			}
+		],
+		"1_1CviXmxAgTF9uhA254Mz6qjT3hGDTuJPgh": [
+			{
+				"comment_id": 87,
+				"body": "月流量 2T 的用户表示消费不起。",
+				"added": 1467962922
+			}
+		],
+		"1_1Gy5eEwLaVPKu4Mr1cEm9WFHRCTrhZM3gm": [
+			{
+				"comment_id": 91,
+				"body": "这站我老早就去过，年龄超了还都是垃圾。\n当年还用工具刷过分，万年不更新居然还开着。",
+				"added": 1472110012
+			}
+		],
+		"1_1DRY1TVQQUirP9D8Muvx6kMSfsG7Q9exyB": [
+			{
+				"comment_id": 92,
+				"body": "卧槽！这风气居然传到 GFW Talk 来了，自己看看积分规则就知道怎么刷了吧！",
+				"added": 1472244207
+			}
+		],
+		"1_16CjeaxHWFkaD5weuMdafFJpsfJ4njgoH6": [
+			{
+				"comment_id": 93,
+				"body": "建议看 Google 透明度报告：https://www.google.com/transparencyreport/traffic/disruptions/\n最近刚果（布）也上不了 Google",
+				"added": 1472244701
+			}
+		],
+		"2_1GPyZ5aQhp9WquV7WfSefMvQXumDJhN545": [
+			{
+				"comment_id": 95,
+				"body": "用 2.x 版本或者清除数据后继续用还是可以，先不考虑了，反正现在考虑了到时候还是失效。",
+				"added": 1472319596
+			}
+		],
+		"1_1QJEcB4cJ9awgmULZ1rnw7DsT5qxa5tMqt": [
+			{
+				"comment_id": 96,
+				"body": "是你的节点挂了，原版 SS 还能正常使用。",
+				"added": 1472319655
+			}
+		],
+		"7_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 98,
+				"body": "> [noizon](#comment_1_1GQVJ1FjiZd9a9YvTp6Xax71xP3tzLY99G): 哪里功能少了，只是需要用参数配置而已。\n\n服务器负载均衡、连接统计等。",
+				"added": 1473430889
+			}
+		],
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 99,
+				"body": "升级后无法启动，无奈恢复备份。",
+				"added": 1473431141
+			},
+			{
+				"comment_id": 104,
+				"body": "> [p2p](#comment_883_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 难道是被墙干扰导致下载破损？建议作者搞checksum？\n\n恢复备份后等待站点内容更新到最新后再点升级，就正常升级了。可能是我在大量站点还没更新好的时候就点升级的原因。",
+				"added": 1473960549
+			}
+		],
+		"1_194s76UVb14yWQdUm5p3tNhBGUtPUKb4RH": [
+			{
+				"comment_id": 100,
+				"body": "> [catoz](#comment_3_17nrdrMeoWYaXSMX4mgSje5i4UviaoSxUT): eMule 不是被包括迅雷在内的吸血驴玩死的么……难道我记错了？\n\n渣上行和 NAT 也是很重要的因素，不然在吸血驴不是特别多的情况下体验也还可以接受。",
+				"added": 1473437460
+			}
+		],
+		"1_17UMiSLuJwT3HR9Q153KxVStpcjs214RLw": [
+			{
+				"comment_id": 101,
+				"body": "曝光身份的不多见，用来敲诈的倒是挺多。",
+				"added": 1473437529
+			}
+		],
+		"1_1PHcnehDv9PhrxwF5c2KZTnVyzqNqXrogv": [
+			{
+				"comment_id": 103,
+				"body": "备份密钥。",
+				"added": 1473697170
+			}
+		],
+		"11_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 105,
+				"body": "> [king007](#comment_5_1J9WW22WGCmbuBaLQajwgMfWNxb8hxX4oP): Tribler，这个是tor匿名bt软件，可以了解下，没广告，开源\n\n根据测试，性能极差。",
+				"added": 1473960614
+			}
+		],
+		"27_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 106,
+				"body": "> [p2p](#comment_887_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): IP經常飛，那岂不是会被国产软件/网站检测出异常登陆，各种输验证码甚至锁号？我还在考虑要不要换移动的光纤   @lmath 也来讨论下\n\nIP 经常飞确实会被国产软件/网站检测出异常登陆，而且不仅国产的，Google 等也会。一般不会锁号，但是经常被发帐户异常邮件以及验证码。移动要看地区，有的地区是外包的，用的电信和联通接入，性能很差而且没公网 IP；有的地方是自建的，除了国产游戏性能都很好，上行很大，出口是香港自建出口，带宽可跑满，封杀多数色情网站但对翻墙工具封杀很少。",
+				"added": 1474025146
+			},
+			{
+				"comment_id": 107,
+				"body": "> [p2p](#comment_888_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 多谢！你那的应该属于移动自建的吧？如果当地的移动4G连国内外网速都不错，是不是20M以上的移动光纤也能至少达到该速度？移动应该不会像电信一样对SS流量一大就干扰甚至掐断吧？我经常要切换公网IP来规避电信的干扰甚至掐断。移动自建的有公网IP吗？\n\n我那边移动是自建的。20Mbps 以上的移动光纤在网络繁忙时打不满，但是上下行 20Mbps 还是有的，闲时下行能打满，上行在 30Mbps+。流量一大就掉速，但是阈值比电信大，可通过多个服务器 + 负载均衡规避。移动自建有动态的公网 IP，不封 80 443 等常见端口（据我所知，电信全国大多数地区都封 80 但不封 443，联通部分地区封 80 但不封 443）。",
+				"added": 1474088247
+			},
+			{
+				"comment_id": 108,
+				"body": "> [p2p](#comment_888_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 多谢！你那的应该属于移动自建的吧？如果当地的移动4G连国内外网速都不错，是不是20M以上的移动光纤也能至少达到该速度？移动应该不会像电信一样对SS流量一大就干扰甚至掐断吧？我经常要切换公网IP来规避电信的干扰甚至掐断。移动自建的有公网IP吗？\n\n补充下，Google Public DNS UDP 丢包一半；其他境外 DNS 多数时间 UDP 不丢包，但是部分时间完全丢包；境外 DNS 的 TCP 通道不解析敏感域名不会有间歇性完全丢包的问题，但是一旦解析敏感域名就会被重置，且 90s 内该 IP 解析任何域名都会被重置。\n\n建议配合：\nSimple DNSCrypt https://simplednscrypt.org/ （会影响境内网站的 CDN 分配，慎用，使用时建议使用 TCP 通道）\nhttps://github.com/chengr28/Pcap_DNSProxy （不影响境内网站 CDN 分配，可配置项强大，如果启用 TCP Fast Open 比较容易挂掉，有 OpenWrt 版但是经过测试不太稳定）",
+				"added": 1474088890
+			}
+		],
+		"2_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 109,
+				"body": "> [deep](#comment_7_1A5Uw4pejzgKx4c3yZkz8whBcqMaypp1Wo): 只要比特币搞一批推广币，每人送一块比特币，人气马上上来。因为比特币不兴旺，基于其上的商业就不兴旺，商业不兴旺，人自然都去搞兴旺的东西去了。\n\n比特币搞推广币要看怎么搞，要是用每个人的比特币赞助，谁愿意赞助？如果不靠赞助而是靠新制订一种规则，那么多少节点会认可？而且说明了比特币的规则可以被随意修改，信心就丧失了，那比特币就不值钱了。综上所述，不过是创造了一种新型山寨币而已。",
+				"added": 1474089468
+			},
+			{
+				"comment_id": 114,
+				"body": "> [deep](#comment_8_1A5Uw4pejzgKx4c3yZkz8whBcqMaypp1Wo): 不要被山寨两字吓倒，原创的大把被历史淘汰的，改良的大把抓准了市场的。最终市场接受谁谁就胜出，谁是原创谁是改良根本毫无不重要。作为一个货币，流通量才是决定其代表性的关键因素，就如现在都知道支付宝，知道paypal的没几人。\n\n我去找 VPS 时，国外 VPS 基本支持 Paypal 支付，支持支付宝的没几个。现在的问题是你这样为了推广 ZeroNet 试图修改规则来滥发比特币看不出对比特币是一种改良，反而是有害的，传统货币的缺陷就在滥发货币上。而且作为一种货币，稳定性是较为重要的，既然没有明显的好处，还是不要改的好。现在一些人总想者错过了比特币的那波涨势后再搞个大新闻，把比特币批判一番，试图从中分点粥吃，但是仔细看看改动的地方大多 too young too simple, sometimes naive.",
+				"added": 1474213534
+			}
+		],
+		"6_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 112,
+				"body": "是的，毕竟作者还没见过 GFW 的威力。",
+				"added": 1474206390
+			},
+			{
+				"comment_id": 115,
+				"body": "> [p2p](#comment_892_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 启动参数--fileserver_port自定义端口\n\n谢谢！不过如果换端口的话会不会影响做种？",
+				"added": 1474219186
+			}
+		],
+		"37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 113,
+				"body": ">请大伙不要姑父我的努力\n←_← 姑父好！",
+				"added": 1474213146
+			}
+		],
+		"1_1NngrMGcDbg5T5RqhU7FzbTaCa2WCmabQe": [
+			{
+				"comment_id": 116,
+				"body": "> [998](#comment_3_1JrvgVYJZvtVi9EwhfqbCC1r1BNEPkiRUc): 版瓦工一个月2T没地方用\n\n月流量 2T 用户在此。",
+				"added": 1474348429
+			}
+		],
+		"1_1JpiwrkJ7i5g8DU17Lq7U8TrKyhaobyJG7": [
+			{
+				"comment_id": 117,
+				"body": "期待 Android 版，不过你说的移动才是未来至少近期不现实。“随便一个旧手机就可以做一个稳定节点，而且还是超低功耗”这点半对。首先 ZeroNet 的 CPU 和内存占用并不是很大，而且小容量 Android 基本可插存储卡，但是依照现在 Android 的限制，对后台应用的资源占用更严格，不通过 root 权限打个补丁还是有点难稳定运行。另外使用数据流量又贵又没公网 IP，拿来做种不现实，随时移动的手机电能消耗也是个问题，所以应用场景也就是家里常年插着电源适配器作为微型服务器了。至于真正外出，还是远程连接自家的节点玩玩吧！",
+				"added": 1474349341
+			},
+			{
+				"comment_id": 118,
+				"body": "> [cx0006](#comment_1_1JpiwrkJ7i5g8DU17Lq7U8TrKyhaobyJG7): 自己建个小站没必要非得要公网ip吧，端口不开应该也能用吧？常年有个机器在线保证网页能浏览，旧手机root没什么问题，就是插着电源丢在家或公司。\n\n实际上，公网 IP 还是要保持在一定比例才有较好的可连接性。",
+				"added": 1474386188
+			}
+		],
+		"1_1BhaPKguuWUhs52A3hpqDiqAHrFkmPQ7KQ": [
+			{
+				"comment_id": 119,
+				"body": "> [riccardo](#comment_51_1HK5C3Uf8zvbbSb92ZP6EsfHKC59MXDcK9): 加了Tor 不卡嗎？感覺延遲大大的。Tor自身的帶寬本來就低。不適合流量大與即時通訊。\n\n有时候出于匿名性考虑，加个 Tor 带来的网络性能影响是值得的，有时候不值得就不用了。",
+				"added": 1474549056
+			}
+		],
+		"7_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 120,
+				"body": "BT Sync 的功能就是同步，用于文件分享用途的话这个你可以把它看成订阅功能，用于持续不断的接收原发布者的文件，是这个意思吗？",
+				"added": 1474563340
+			}
+		],
+		"2_1JpiwrkJ7i5g8DU17Lq7U8TrKyhaobyJG7": [
+			{
+				"comment_id": 121,
+				"body": "其实 ZeroNet 是使用了 HTML5 的，你查看源代码可以看下 DOCTYPE，而且实际上视频图片也是可以插的。\n图片站实例：http://127.0.0.1:43110/1NZNtZQZHQRJXafvJpmY5jgqwRaCEZMsUc/?/b/\n视频站示例：http://127.0.0.1:43110/bloob.bit/\n可以插图的论坛示例：http://127.0.0.1:43110/1C2JhCunGLtvyX56nQ88tcb87WnXspjWN/\n\n如果你问的是这个论坛为什么不支持插图的话，其实原因是官方克隆的论坛就没有，然后创建者 @xiaolan65535 不在又没法改。\n\n图片和视频目前 ZeroNet 都可以传输，只是没有文件分片等优化导致性能上并不好，而大家做种的量也决定了 ZeroNet 能传输的量，所以大量使用还是比较慢。",
+				"added": 1474564178
+			}
+		],
+		"2_1PRiHYZJdtz8Mnxj198kEwzYeftuLBrqpu": [
+			{
+				"comment_id": 122,
+				"body": "废纸一张，那些朋友圈发各种养生信息虚假广告的人我看也不会管。",
+				"added": 1474623969
+			}
+		],
+		"3_1AV8NRhVGmJaW6egJjp2Gyikfjz94s96NK": [
+			{
+				"comment_id": 123,
+				"body": "已做种。",
+				"added": 1474632464
+			}
+		],
+		"7_1P7v9ss1TSLcZJVhuGEeYMfqoFi1zyNBeu": [
+			{
+				"comment_id": 124,
+				"body": "说用来吃灰的，可不可以考虑便宜出给我一个？",
+				"added": 1474846092
+			}
+		],
+		"1_1DhW5omP4x5oVKtvw9sjW6MLd48qSZKZ3L": [
+			{
+				"comment_id": 125,
+				"body": "现在在 ZeroNet 上的人少，用 ZeroNet 基本懂点原理的，而且目前大多站点都很小，并不存在多少人多粥少的问题。但是一旦人多了起来，必须有一个机制保证用户做种，不然很多人只知道用 ZeroNet 还要下个占网速占硬盘的客户端，节点进程还分分钟被加速球清理了，数据存储也当作垃圾一并清理了，怎么搞？以前快播也是搞 P2P 的，但是由于国内的网络环境加上下完就跑，所以性能很差，为了维持性能，还是不得不搬出中心化的，容易单点故障的缓存服务器，并被抓住了把柄。所以 ZeroNet 在中国一定要有一个类似积分的策略，积分低优先级也低，背后可以用比特币相关原理，而用户不必熟悉。有人问这样一来，如果自己用手机，岂不是费电费流量？这就限制了出门的使用，而且有的地方的 ISP 很坑，没公网 IP 上行还低，岂不是体验很差？所以应该有一种机制可以使多个设备记录一样的积分，而且最好允许交易。这样的话，自己平时在家/公司做种多，出门用手机不分享流量也有较好的浏览体验。自己这儿 ISP 实在坑的，还可以通过支付一定费用与做种多的人交易积分（想想流量矿石、迅雷赚钱宝、优酷赚钱宝什么的赚不了多少钱也有很多人做，表明还是可行的）。这样性能好能吸引更多的人，而这个机制能从一定程度上保证节点共享率够，那么用的人就多了。",
+				"added": 1474910272
+			}
+		],
+		"2_1FymdgJbYvMbjC22E1PGD7289Y3WRrgL2L": [
+			{
+				"comment_id": 126,
+				"body": "我觉得相比其他小众语言，应该还会过剩，所以打消这个念头吧！",
+				"added": 1474910401
+			}
+		],
+		"3_1DmGsXFPPexxcuTRgYZxDRHqGA7CbR3j14": [
+			{
+				"comment_id": 127,
+				"body": "因为新闻媒体在描述恋童的时候，潜在传输了以下价值观：\n恋童=性侵儿童=虐待儿童",
+				"added": 1474911065
+			}
+		],
+		"5_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": [
+			{
+				"comment_id": 128,
+				"body": "Governmental Accounting Standards Board",
+				"added": 1474969879
+			}
+		],
+		"3_1JpiwrkJ7i5g8DU17Lq7U8TrKyhaobyJG7": [
+			{
+				"comment_id": 129,
+				"body": "抱歉，目前并不能，但是能用公钥加密内容使拥有私钥的人才能解密，差不多就是 ZeroMail 的原理。",
+				"added": 1474995761
+			}
+		],
+		"2_1jUptbq8ntG1ufEencVYFXSxaRvXt9qSb": [
+			{
+				"comment_id": 130,
+				"body": "> [sdhyzxb](#comment_10_1QKcVeJ1hznJyXzXs1TFmvrxu17tPD8wLe): 草莓派论坛-精品萝莉资源论坛 http://t.cn/Rcg2wJ3\n\n很长时间的老站，换了 N 多域名，还是那些视频，居然还在传，关键还要钱。",
+				"added": 1475232708
+			}
+		],
+		"6_13RFJdsXQGN5cfMK8GctB6nQZ5xwLmjcfB": [
+			{
+				"comment_id": 131,
+				"body": "> [windonsurf](#comment_6_1KNe8oqdHjEAYSEZByAikQi66GjZB1rSxL): 点击Tor available ,再点击enable tor always ,重启zeronet，看看有没有变成always模式，不然就不是匿名的。Tor已经被墙了，网桥模式也不管用了。所以要前置代理。\n\n然而他问的不是这个问题，他的问题的意思是为什么 ZeroNet 自带的 Tor 可以零配置连上不受墙影响，而 Tor Browser 需要配置网桥或者前置代理才能使用。\n已验证，我这里 ZeroNet 自带的 Tor 确实可以不用配置网桥或者前置代理直接使用。",
+				"added": 1475242913
+			}
+		],
+		"1_18SfHvAVWv7TpzrNaatMMx4PHZ9YJwfSbD": [
+			{
+				"comment_id": 132,
+				"body": "> [junwu](#comment_2_1NAtBgVy3u9mQxcWnCCgm1oC21vbmm6j6n): 我这里不能用，还是能出个手机端就好了。不需要实时更新，缓存控制在一定量，到达临界值再缓存新的删除旧的。这样手机容量应该也就没太大问题了吧。\n\n到了临界值删除旧的不符合 ZeroNet 在电脑上的逻辑，通过 hash 控制或者优先级控制也许更好。",
+				"added": 1475842043
+			}
+		],
+		"19_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": [
+			{
+				"comment_id": 134,
+				"body": "然而你还不是发成功了这帖？",
+				"added": 1475893477
+			},
+			{
+				"comment_id": 138,
+				"body": "> [p2p](#comment_915_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 你好像不怎么玩ZeroMe啊\n\n是是是。",
+				"added": 1476167544
+			}
+		],
+		"3_1CSQ3L4cVvTuWPoQawwdFRgFDtNyKQvBxQ": [
+			{
+				"comment_id": 135,
+				"body": "套现？",
+				"added": 1476008702
+			}
+		],
+		"1_1QCk9w2tRLFqCdsi7FyWbReTeb3NpsXdnn": [
+			{
+				"comment_id": 136,
+				"body": "没审计过谁能保证安全？\n顺便说下，有开源的查毒软件：ClamAV：https://www.clamav.net/",
+				"added": 1476008977
+			}
+		],
+		"1_1CSQ3L4cVvTuWPoQawwdFRgFDtNyKQvBxQ": [
+			{
+				"comment_id": 137,
+				"body": "让我想起了当年借贷宝的推广，泡沫还没破啊？",
+				"added": 1476018117
+			}
+		]
+	},
+	"comment_vote": {
+		"7_1958F7oCppj78MP966AfojMQwHg2WUupzq": 1,
+		"5_1GqVcxJ7bVAv4aGqFFipMVcfV3DQNpUUb5": 1,
+		"7_1AMMLua4qzhFpvvh4YsCtZgRoX3Nm2thoK": 1,
+		"18_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": 1,
+		"3_1LHdPBTEdLuBDgLcfqZtNwSTMec3EgejiM": 1,
+		"79_157d61UG24B66Yw2qwEQWY7yFAWp1HoAST": 1,
+		"42_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw": 1,
+		"68_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": 1,
+		"8_149yMCzpAosi4CdTFx1KdV1hDDMN7v9kG7": 1,
+		"92_157d61UG24B66Yw2qwEQWY7yFAWp1HoAST": 1,
+		"5_16MFH5WyHvaY8EnJtLUUmXQWM9vQ2hG7fP": 1,
+		"3_1DmhVmXkXb8RTNzEk4F6sMPrZ5TuMhd5e8": 1,
+		"32_18hidquEH7k6Dnn5MDd4zJFJ2cTUF22wk2": 1,
+		"793_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"2_194s76UVb14yWQdUm5p3tNhBGUtPUKb4RH": 1,
+		"3_194s76UVb14yWQdUm5p3tNhBGUtPUKb4RH": 1,
+		"2_1MDUoS3yeC8qhfbZTkNxCMHsNHVjev9x8p": 1,
+		"3_1AUy8R26PseCqayTKUseVkaEk4f2VNq2JG": 1,
+		"5_1K3RXgBo9as5ESbTNSEPAJE7cdn5ommrrV": 1,
+		"11_1K3RXgBo9as5ESbTNSEPAJE7cdn5ommrrV": 1,
+		"4_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"1_17nrdrMeoWYaXSMX4mgSje5i4UviaoSxUT": 1,
+		"1_18SfHvAVWv7TpzrNaatMMx4PHZ9YJwfSbD": 1,
+		"8_1GjHWu1CHC5YHequbMVqPuzhBWmDN58iZA": 1,
+		"2_1BxScRsYLogy8486FArxrEYqjU9AFJtvMV": 1,
+		"106_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": 1,
+		"15_1KNe8oqdHjEAYSEZByAikQi66GjZB1rSxL": 1,
+		"7_17sXSKKuvCrPtSgVXi7EiPdmEZb4vmprMw": 1,
+		"158_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": 1,
+		"9_17sXSKKuvCrPtSgVXi7EiPdmEZb4vmprMw": 1,
+		"3_1AW57hKnfS6s5mdSZMYFHeqYiyr5DYsoJT": 1
+	}
+}

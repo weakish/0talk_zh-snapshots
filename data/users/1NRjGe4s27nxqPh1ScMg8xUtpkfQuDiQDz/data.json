@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_18SfHvAVWv7TpzrNaatMMx4PHZ9YJwfSbD": [
+			{
+				"comment_id": 1,
+				"body": "要自由的话，还是freenet",
+				"added": 1476091333
+			}
+		],
+		"1_17UMiSLuJwT3HR9Q153KxVStpcjs214RLw": [
+			{
+				"comment_id": 2,
+				"body": "> [moandor](#comment_13_1KNQqmLEFndP9iZfwPK5CriLzrjjWc8Ukj): 哪有那么容易 zeronet的设计就是为了匿名的 如果这样做岂不是违背本意了？\n\nZeroNet设计的本意不是用于匿名好吧？分布式是分布式，只是难以审查和封锁内容，并不是抓不到发布者，别说tor，tor有tor的弊端，也不是万能的",
+				"added": 1476092084
+			}
+		]
+	},
+	"comment_vote": {}
+}

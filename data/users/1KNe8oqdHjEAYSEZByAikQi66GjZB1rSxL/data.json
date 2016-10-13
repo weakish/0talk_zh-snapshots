@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_18SfHvAVWv7TpzrNaatMMx4PHZ9YJwfSbD": [
+			{
+				"comment_id": 2,
+				"body": "> [junwu](#comment_3_1NAtBgVy3u9mQxcWnCCgm1oC21vbmm6j6n): 电脑上的账户无法在手机上使用吧。\n\n电脑上的ID就不知道怎么用了，不过手机上好像能够注册ID，应该是要找到那个**user.json**文件，把电脑上申请的ID文件覆盖上去，我没试过，手机没越狱。不过，我是认为手机发言不安全，零网在手机上浏览就行了，想发言的话，用TOR安全。",
+				"added": 1475941314
+			}
+		],
+		"1_15DeXsYnxRPw5ECbh234cX6cfEurNUvyj3": [
+			{
+				"comment_id": 3,
+				"body": "互联网有法外之地。洋葱暗网里有很多贩卖毒品， 杀手，黑客服务，儿童色情。还有这个法也是存在不正当性，对法不能盲信，会沦为恶法的爪牙。",
+				"added": 1476337728
+			}
+		]
+	},
+	"comment_vote": {}
+}

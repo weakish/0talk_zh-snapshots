@@ -1,0 +1,37 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "终于找到组织了",
+				"added": 1473731051
+			}
+		],
+		"1_15hvbjG4xKrZFM2JCLFG22xnesRS6FsVtz": [
+			{
+				"comment_id": 2,
+				"body": "美元+黄金+比特币",
+				"added": 1473738435
+			}
+		],
+		"2_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 3,
+				"body": "ZeroNet应该集成比特币等数字货币支付功能，有了支付功能商机自然就很多了",
+				"added": 1474083049
+			}
+		],
+		"1_1P2WwXDP8eLoFc4Bq63RNFfm34YL7bBWaa": [
+			{
+				"comment_id": 4,
+				"body": "中国要民主，必须打垮利益集团，这个代价肯定不会小",
+				"added": 1475121557
+			}
+		]
+	},
+	"comment_vote": {}
+}

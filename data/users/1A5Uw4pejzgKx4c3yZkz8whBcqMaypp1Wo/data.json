@@ -1,0 +1,113 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Zeronet比freenet、I2P快多了",
+			"body": "刚来，第一感觉，不明觉厉。",
+			"added": 1462220319,
+			"parent_topic_uri": "12_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 2,
+			"title": "可以通过zeronet访问零网之外的普通网站吗？",
+			"body": "RT",
+			"added": 1462399950,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 3,
+			"title": "零网可以纯内部更新吗？",
+			"body": "不需要连接github，可以吗？github经常连不上。",
+			"added": 1462400094,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 4,
+			"title": "怎样将Zeronet安装为后台服务，windows",
+			"body": "启动时不要那个黑色控制台，完全静默的。",
+			"added": 1473784750,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		}
+	],
+	"topic_vote": {
+		"2_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt": 1,
+		"2_1M54tXvq9WvmbAPBDdwCx72ZxQpeQdMCzw": 1,
+		"3_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"47_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"5_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": 1,
+		"3_1DD52vhXkbAdaS54PoZ2vNauiQ8XMiswC5": 1,
+		"1_17UMiSLuJwT3HR9Q153KxVStpcjs214RLw": 1,
+		"5_13RFJdsXQGN5cfMK8GctB6nQZ5xwLmjcfB": 1,
+		"1_18SfHvAVWv7TpzrNaatMMx4PHZ9YJwfSbD": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"12_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 1,
+				"body": "BT Sync不开源，没劲啊",
+				"added": 1462220384
+			}
+		],
+		"1_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 2,
+				"body": "可以作为封锁与反封锁的技术实验区",
+				"added": 1462734249
+			}
+		],
+		"3_1NmwA9EFPu94QaN7yMYpzu2iSg1dGAYV6n": [
+			{
+				"comment_id": 3,
+				"body": "关键是Tor自己常常连不上或很快断掉。",
+				"added": 1463156985
+			}
+		],
+		"2_1A9e5YYegRZ8HA6ns8iSE4C8Ze6c2Ct49s": [
+			{
+				"comment_id": 4,
+				"body": "方校长还没死啊？",
+				"added": 1463325195
+			}
+		],
+		"5_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 5,
+				"body": "新疆这样搞其实是全国的试点，各省都派员到新疆培训学习了。",
+				"added": 1464774742
+			}
+		],
+		"10_19SxyZeLrqy2AUUG9hhtK8Pd5CUxtsP15Z": [
+			{
+				"comment_id": 6,
+				"body": "支持开源",
+				"added": 1465565954
+			}
+		],
+		"2_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 7,
+				"body": "只要比特币搞一批推广币，每人送一块比特币，人气马上上来。因为比特币不兴旺，基于其上的商业就不兴旺，商业不兴旺，人自然都去搞兴旺的东西去了。",
+				"added": 1473777028
+			},
+			{
+				"comment_id": 8,
+				"body": "> [lmath](#comment_109_1958F7oCppj78MP966AfojMQwHg2WUupzq): 比特币搞推广币要看怎么搞，要是用每个人的比特币赞助，谁愿意赞助？如果不靠赞助而是靠新制订一种规则，那么多少节点会认可？而且说明了比特币的规则可以被随意修改，信心就丧失了，那比特币就不值钱了。综上所述，不过是创造了一种新型山寨币而已。\n\n不要被山寨两字吓倒，原创的大把被历史淘汰的，改良的大把抓准了市场的。最终市场接受谁谁就胜出，谁是原创谁是改良根本毫无不重要。作为一个货币，流通量才是决定其代表性的关键因素，就如现在都知道支付宝，知道paypal的没几人。",
+				"added": 1474208610
+			}
+		],
+		"5_13RFJdsXQGN5cfMK8GctB6nQZ5xwLmjcfB": [
+			{
+				"comment_id": 9,
+				"body": "感谢分享",
+				"added": 1474733649
+			}
+		]
+	},
+	"comment_vote": {
+		"85_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": 1,
+		"48_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt": 1,
+		"4_1zYus1ZaPCSzAfCSeU6pfMQM58AQy6Tgt": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "HB5UAjxGFYe1TMZhAfvWLMaworx6CZD6APKDpf2oEZyFrd6EQb9SZwVUyuHr9q8XK6xoYY7zl2WSzMMgOKQiUeg=",
+ "cert_user_id": "polijun@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ecf8d7c95e8eef0e903e4b6b259b03d101120ad392edd1e1d3c1631d2186a9aa",
+   "size": 3754
+  }
+ },
+ "inner_path": "data/users/1FymdgJbYvMbjC22E1PGD7289Y3WRrgL2L/content.json",
+ "modified": 1476109563.529,
+ "signs": {
+  "1FymdgJbYvMbjC22E1PGD7289Y3WRrgL2L": "G26/aPv4dIUezTBqMxcwuhL6Jp5Dh00nPyhh96HJnwUYldVPxOgEdtroMIRwPa1on3lMCgkud4tPQ9RbmLW8piw="
+ }
+}

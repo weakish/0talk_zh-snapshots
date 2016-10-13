@@ -1,0 +1,26 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "我的电影福利站~~~~~~~~~~~~~",
+			"body": "www.bilifuli.com 哔哩福利。欢迎来访。",
+			"added": 1468387492,
+			"parent_topic_uri": "12_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		}
+	],
+	"topic_vote": {
+		"1_1NRjsifJpZEtQarb4vB3ffZ9wDTdFikNcJ": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 1,
+				"body": "的确有参考意义，新/疆目前是实验地区，不久就会把这套系统用到全国。",
+				"added": 1469519100
+			}
+		]
+	},
+	"comment_vote": {}
+}

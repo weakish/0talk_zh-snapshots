@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_1F77QJqo1JG2kZzHZHTK458nZYNBHYvmFA": [
+			{
+				"comment_id": 1,
+				"body": "比特币价格贵的很",
+				"added": 1459429379
+			}
+		],
+		"2_1F77QJqo1JG2kZzHZHTK458nZYNBHYvmFA": [
+			{
+				"comment_id": 2,
+				"body": "zeronet网站就封不掉了",
+				"added": 1459430154
+			}
+		]
+	},
+	"comment_vote": {}
+}

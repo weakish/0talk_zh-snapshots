@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_19sjUkvu2KTzd8DTwftTBtUmUqVKsA1iyf": [
+			{
+				"comment_id": 1,
+				"body": "谢谢分享！我这智商真的不会做这种题目。",
+				"added": 1472719544
+			}
+		],
+		"1_1A9MdUkuquN8mbRxbThroreNxVHFMRGqie": [
+			{
+				"comment_id": 2,
+				"body": "密码已收下，原谅我的智商根本不会做。",
+				"added": 1473083583
+			}
+		]
+	},
+	"comment_vote": {}
+}

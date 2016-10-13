@@ -1,0 +1,30 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "test, test",
+				"added": 1468218949
+			}
+		],
+		"7_144GQ5Uz9dYQJ1MwjSFWWboLgHwdGpv21x": [
+			{
+				"comment_id": 2,
+				"body": "我其实对未来的互联网设想过，大概如此：基于远程无线电通信，每个网络设备本身即是terminal又是router, 网络层推倒重来，采用flat的mesh这种拓扑, 抛弃IP地址的概念，而采用某种session内有效的token来标识设备（从根本上实现匿名）。 想象一下，以后每个人手中的手机都可以与周围几公里甚至更远的人直接通信，如此连接而成的网络，应当很难封锁吧，那时信息的流动会更自由，高效。",
+				"added": 1468238683
+			}
+		],
+		"8_1DzpF7398yNGjFwHQqHAu9fRkbE3WZ6dZA": [
+			{
+				"comment_id": 3,
+				"body": "we need to make it worse, so that the goverment has to shut it down, then BOOM, backfires. 置之死地而后生",
+				"added": 1475254118
+			}
+		]
+	},
+	"comment_vote": {}
+}

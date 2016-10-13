@@ -1,0 +1,461 @@
+{
+	"next_topic_id": 14,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "香港电影《十年》资源发布",
+			"body": "影评： \nhttp://127.0.0.1:43110/1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV/?Post:14:%E3%80%8A%E5%8D%81%E5%B9%B4%E3%80%8B%EF%BC%9A%E4%B8%80%E9%83%A8%E8%AE%B2%E8%BF%B0%E5%92%8C%E8%B0%90%E7%A4%BE%E4%BC%9A%E7%9A%84%E7%A7%91%E5%B9%BB%E7%89%87\n\n磁力链接:：\nmagnet:?xt=urn:btih:F1528EF2DD7C6A5FB955759DD25AB6DCEC8C66C9\n电驴链接： ed2k://|file|Ten.Years.2015.1080P.mp4|1945064624|C0A5B82BF806469FDBD7D2F97680EC5B|h=L25MCPC5AUWTM7VLKDQ2SLLBOF4TE7YL|\n种子下载：\nhttps://dl.dropboxusercontent.com/u/3898221/Torrent/TenYears2015.torrent",
+			"parent_topic_uri": "12_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa",
+			"added": 1459908408
+		},
+		{
+			"topic_id": 2,
+			"title": "在线JSON编辑器",
+			"body": "Chrome的应用商店里的JSON Editor，在浏览器里安装之后，就能编辑ZeroNet网页里的 data.json 文件，修改链接，标题和注释。\n\nhttps://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?utm_source=chrome-app-launcher-info-dialog",
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa",
+			"added": 1460176686
+		},
+		{
+			"topic_id": 3,
+			"title": "Zeroblog文章置顶的简单方法",
+			"body": "答案是——修改发布文章的时间\n将鼠标移动到标题和正文中间的那一行，点左侧的笔，修改发布时间为超过今天的年份，文章会一直置顶。同理，修改发布时间为较早的年份，文章会置底。\n由于Zeroblog通用模板没有提供目录功能，把置顶文章当作目录（博客导读）也是一个办法。\n参见我的blog：\nhttp://127.0.0.1:43110/1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV/",
+			"added": 1461222180,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 4,
+			"title": "Lantern更新到2.12（2015.4.21)",
+			"body": "官网  http://getlantern.org/\n桌面版   https://s3.amazonaws.com/lantern/lantern-installer-beta.exe\n安卓版   https://s3.amazonaws.com/lantern/lantern-installer-beta.apk",
+			"added": 1461228823,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 5,
+			"title": "成功在ZeroNet注册了一个免费的.bit域名",
+			"body": "参考官方文档\nhttp://127.0.0.1:43110/domains4free.bit/?Post:2:Free+.bit+Domains+for+ZeroNet+Sites\n在ZeroMail邮箱向domains4free发邮件，注明域名，绑定地址以及namecoin钱包的收款地址，24小时之后域名生效，比如我的域名 mydf.bit\nhttp://127.0.0.1:43110/mydf.bit/\n附图\nhttp://127.0.0.1:43110/mydf.bit/img/namemydf.png",
+			"added": 1461289733,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 6,
+			"title": "ZeroBlog链接小贴士——用“/\"和\"./\"替换地址",
+			"body": "在ZeroBlog写博文，难免要用上一些链接，如果链接是在本站，可以简写。\n比如：\nhttp://127.0.0.1:43110/mydf.bit/?Post:47:%E5%9C%A8ZeroNet%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AA%E5%85%8D%E8%B4%B9%E7%9A%84.bit%E5%9F%9F%E5%90%8D\n这样一个链接，在发布的时候，可以简写为\n```\n./?Post:47\n```\n有心的朋友注意到了，是把本地网站名称 ```http://127.0.0.1:43110/mydf.bit/```替换成了```./```，同时，省略了文章名称，正文更简洁美观。\n\n如果是引用别人的网站，比如：http://127.0.0.1:43110/gfwtalk.bit/，写成：\n```\n/gfwtalk.bit/\n```\n在这里，全站名称  ```http://127.0.0.1:43110/``` 被替换了 ```/``` 。",
+			"added": 1461507978,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 7,
+			"title": "如何删除Zeroblog中已经不使用的旧文件？（已解决）",
+			"body": "blog修改之后，有些文件比如blog使用的链接图片已经不需要了，尝试删除，update之后又被同步回来本地。这样就导致blog中文件越来越多，容量增大。\n请教高手，网站发布以后，删除文件是如何操作的？\n谢谢各位高手的指点，答案是：删除文件后直接签名+发布，不需要update。一旦update，就会把文件重新下载回来。",
+			"added": 1461575681,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 8,
+			"title": "中文导航网站（0net123）",
+			"body": "抛砖引玉，请各位推荐或者自荐好的中文资源，我会慢慢补充到列表当中\nhttp://127.0.0.1:43110/0net123.bit/",
+			"added": 1461679310,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 9,
+			"title": "利用NeroNet下载翻墙软件的可行性",
+			"body": "http://127.0.0.1:43110/mydf.bit/?Post:58\n\nZeroNet默认每一个网站有10M的空间，看上去更适合于做论坛或者Blog而不是下载站，但它的去中心化属性使得ZeroNet永远不会被封锁，没有一台服务器是真实的服务器，任何人都可以是服务器。理论上，只要还有一个点在为某个网站做种子，这个网站就可以被任何一个ZeroNet用户访问到，而访问到网站的那个用户，又成了服务器——“星星之火，可以燎原”。\n\n用户要访问一个ZeroNet网站时，即使他只需要下载某个文件，也不得不同步全站数据，所以，当一个网站的空间大到一定程度的时候，会给访客带来困扰，也给整个网络带来亢余的流量负担，这就是为什么ZeroNet上不合适做下载站的原因。\n\n不过，我仍然认为可以在网站上储存一些小型的翻墙工具，将这些文件储存在不同的网站，避免单个网站空间过大。这样，就能够在急需的时候借助ZeroNet穿越封锁，畅行世界。\n\n另外，借助ZeroNet的开放代理，也能够使得墙内的普通网民也能够访问到这些文件，然后利用这些工具翻墙。风险在于，代理网站扩散之后会激活GFW这只怪兽，直接封锁ZeroNet的开放代理。",
+			"added": 1461679840,
+			"parent_topic_uri": "10_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 10,
+			"title": "今天，4月30日，所有的开放代理都失效了",
+			"body": "http://127.0.0.1:43110/zeroproxies.bit/\nproxy list 列表里的服务器，没有一个能连上",
+			"added": 1461971392,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 11,
+			"title": "东先生的聊天室",
+			"body": "由 erkan@zerobid.bit 的聊天室克隆而来，在教程里有一些简单的指令和功能，请各位指教\nhttp://127.0.0.1:43110/chat.mydf.bit/",
+			"added": 1462071349,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 12,
+			"title": "BtTorrent Sync 索引贴",
+			"body": "希望能够和ZN用户通过BTSync分享资源 \nhttp://127.0.0.1:43110/mydf.bit/?Post:72",
+			"added": 1462493241,
+			"parent_topic_uri": "19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		},
+		{
+			"topic_id": 13,
+			"title": "在Zeroblog的页面实现了直接播放mp4,但mkv格式的没有成功",
+			"body": "http://127.0.0.1:43110/mydf.bit/?Post:55\n页面里有 @dreamwalker108 提供的直链资源，想请教一下，mkv怎么播放，mkv支持多音轨和多字幕，有办法切换么？",
+			"added": 1462887242,
+			"parent_topic_uri": "8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa"
+		}
+	],
+	"topic_vote": {
+		"1_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": 1
+	},
+	"next_comment_id": 60,
+	"comment": {
+		"1_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa": [
+			{
+				"comment_id": 1,
+				"body": "有趣，不知道有什么实际的意义，可以写blog么？",
+				"added": 1458960949
+			}
+		],
+		"1_1HaUUvXrUEEtZr7CxXydnbT52oGgxnGYL1": [
+			{
+				"comment_id": 2,
+				"body": "http://127.0.0.1:43110/1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV/\n这是复制你的文章，克隆的blog，不知道发布成功没有",
+				"added": 1459046600
+			}
+		],
+		"3_15hvbjG4xKrZFM2JCLFG22xnesRS6FsVtz": [
+			{
+				"comment_id": 3,
+				"body": "> [p2p](#comment_61_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 只敢提普京\n\n新浪链接已和谐",
+				"added": 1459772629
+			}
+		],
+		"1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 8,
+				"body": "> [sary](#comment_4_157d61UG24B66Yw2qwEQWY7yFAWp1HoAST): 设置使用markdown编辑器。\n> 顺便问一下，改头像的技能还是没掌握 （摊手）\n\n你是指ZeroBlog的logo吧，在 \\ZeroBundle\\ZeroNet\\data\\1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV\\img\\avatar.png 这个文件，做一个png图片格式的文件替换它就行了。",
+				"added": 1460043891
+			}
+		],
+		"9_12kgNNnBaR3s7bN761BCQtkzSC7EbrK2Jd": [
+			{
+				"comment_id": 9,
+				"body": "正版电影已经在GooglePlay上架，可以租用观看\nhttps://play.google.com/store/movies/details/ten_years?id=XdhCFGPTZGw&hl=tw",
+				"added": 1461154476
+			}
+		],
+		"23_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [],
+		"3_18hidquEH7k6Dnn5MDd4zJFJ2cTUF22wk2": [
+			{
+				"comment_id": 11,
+				"body": "注册.bit域名需要5美刀，英文好的自己看   http://127.0.0.1:43110/domains4free.bit",
+				"added": 1461221455
+			}
+		],
+		"1_12pBgpsDjuPWf7JVJcKDf3Dvuc7QTSECXn": [
+			{
+				"comment_id": 12,
+				"body": "帖图示范\n![](http://dl.dropboxusercontent.com/tietu.png)\n![说明，可不写](img/test.jpg)\n",
+				"added": 1461230206
+			}
+		],
+		"3_1E1DowYbJUxTs61csVF3zE9JgJCJeuckbx": [
+			{
+				"comment_id": 13,
+				"body": "有指针的表示——含有链接",
+				"added": 1461237256
+			}
+		],
+		"2_1E1DowYbJUxTs61csVF3zE9JgJCJeuckbx": [
+			{
+				"comment_id": 14,
+				"body": "Zero torrent这个论坛就是可以贴图的，有兴趣的朋友可以clone研究一下\nhttp://127.0.0.1:43110/192dZ1EG5tU7PnCfuwGMDEBrr2eLqvs4t3/?Topic:1",
+				"added": 1461254043
+			}
+		],
+		"5_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": [
+			{
+				"comment_id": 15,
+				"body": "> [something](#comment_1_14kpMFXkLerqtvXM9rywW8h7rdLEBYz9FS): 不知道为什么，自己在namecoin qt客户端绑定zeronet地址后，不能使用注册的域名。再等等看。\n\n我在提交域名申请之后24小时才激活的。\nBTW，请查看ZeroMail，有信息给你。",
+				"added": 1461303127
+			}
+		],
+		"2_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 16,
+				"body": "试试安装lantern，全局翻墙，然后启动zeronet\nhttp://127.0.0.1:43110/mydf.bit/?Post:7:Lantern",
+				"added": 1461342260
+			}
+		],
+		"10_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": [
+			{
+				"comment_id": 17,
+				"body": "> [p2p](#comment_487_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 看来要整理一个中文圈博客列表，还要搞个自荐博客的版块。周末了xiaolan还没出现？\n\n已经整理了一个博客列表，请你看看还有要补充的在评论里加一下\nhttp://127.0.0.1:43110/mydf.bit/?Post:50:ZeroBlog_CNJ/",
+				"added": 1461384664
+			}
+		],
+		"6_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": [
+			{
+				"comment_id": 18,
+				"body": "> [mosen](#comment_44_1Q7UWk3im88kJkzmhzfD5q44rQDXLatxYq): 看懂了，非常有用的小技巧。\n\n这个功能对有域名的用户比较有效， 在发布文章的时候，可以忽略域名和网址的差异",
+				"added": 1461509024
+			},
+			{
+				"comment_id": 19,
+				"body": "> [imawho](#comment_29_16dAKXJdQKVKinMALLsL4YkdAkSDQiPAiw): 直接 ./?Post:47 吧\n\n对，就是这样",
+				"added": 1461512854
+			}
+		],
+		"7_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": [
+			{
+				"comment_id": 20,
+				"body": "> [mosen](#comment_53_1Q7UWk3im88kJkzmhzfD5q44rQDXLatxYq): 如果刚删除就升级的话图片就会恢复过来。图片删除之后需要一段时间等网上节点删除图片。\n\n删除之后，如果不提交，Zeronet怎么会确认呢？",
+				"added": 1461576690
+			},
+			{
+				"comment_id": 22,
+				"body": "> [p2p](#comment_542_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 删完以后马上用隐藏菜单sign、publish\n\n明白了，是直接签名+发布，不需要update。一旦update，就会把文件重新下载回来。",
+				"added": 1461578225
+			}
+		],
+		"2_1Ctx84Qoq2wzcdbJ73FyRL12weUPjpRpBk": [
+			{
+				"comment_id": 23,
+				"body": "http://127.0.0.1:43110/PanamaPapers.bit/",
+				"added": 1461584437
+			}
+		],
+		"9_1P7v9ss1TSLcZJVhuGEeYMfqoFi1zyNBeu": [
+			{
+				"comment_id": 24,
+				"body": "提问前请仔细看 [[置顶帖] ](http://127.0.0.1:43110/gfwtalk.bit/?Topic:1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+4+26+Update+zeronet+tor+browser+tor)\n你没有发布网页，右上角圆点，拉开隐藏菜单，依次点——Sigh---Publish",
+				"added": 1461758227
+			}
+		],
+		"3_16MnXWFj7bYgDHm4zYF4bKGigZDfRfq5Yj": [
+			{
+				"comment_id": 25,
+				"body": "文章不错，很有激情，可惜地址写错了，不是43118     \n[开博第一骂，痛骂程序员](/1LcQTyUYkq3n458rkHVQxhHyvUdmSYFURd/?Post:1)",
+				"added": 1461824988
+			},
+			{
+				"comment_id": 26,
+				"body": "> [fornews](#comment_8_16MnXWFj7bYgDHm4zYF4bKGigZDfRfq5Yj): 逼格再一次碎了...\n\n站着生存是有风险的， @clowwindy 妹子因为SS被国保请喝茶，现在她的Twitter帐号是锁推的，一般人看不到。\n不能要求别人勇敢地站在队伍最前列，因为对手从来不讲规则。",
+				"added": 1461826052
+			}
+		],
+		"29_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 27,
+				"body": "好消息，主页搜索几乎瞬间达成，一会儿写一篇post",
+				"added": 1461983983
+			},
+			{
+				"comment_id": 28,
+				"body": "综合楼主发布的资料，写了一篇简单的教程\nhttp://127.0.0.1:43110/mydf.bit/?Post:63",
+				"added": 1461986835
+			}
+		],
+		"30_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 29,
+				"body": "不错的想法",
+				"added": 1462028974
+			}
+		],
+		"11_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": [
+			{
+				"comment_id": 30,
+				"body": "如果用户数多起来了，做种就快，延时就短，“发送”键右边的 “游客”数量其实就是聊天室当前的连接数。",
+				"added": 1462090086
+			}
+		],
+		"1_16NLSmuxbbS9zxCjW4WM2VFRuMcgCvExLZ": [
+			{
+				"comment_id": 31,
+				"body": "http://127.0.0.1:43110/mydf.bit/?Post:14\n\n顺便提醒一下，在首页更新zeronet到最新版，首页有搜索功能，不需要提问了\n\n升级方法如下\n\nhttp://127.0.0.1:43110/mydf.bit/?Post:63",
+				"added": 1462114305
+			}
+		],
+		"31_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 32,
+				"body": "技术含量很高，需要征集高端人才。",
+				"added": 1462116388
+			},
+			{
+				"comment_id": 33,
+				"body": "> [p2p](#comment_640_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 补充了： signers 为超版的auth_address( 可以在超版自己电脑的根users.json里sites字段对应site地址下找到，超版管理网站时用对应的auth_privatekey)\n\n你设计的架构是针对于管理层次分明的多级网站，而我的要求很简单：比如我们曾经讨论过的 private key，有没有可能网站的拥有者在持有 private key的同时，生成并分发一个“副 private key”交给另一个维护者，并在任何时候可以终止这个“副 private key”的权限。",
+				"added": 1462155770
+			}
+		],
+		"3_16GNeHFpN3X1NaWBUJKXJ16eGYAwsfP8qF": [
+			{
+				"comment_id": 34,
+				"body": "值得期待",
+				"added": 1462374325
+			}
+		],
+		"1_1MWqMgNhZtYQaLKRMw2FmXotbjqHmzygMx": [
+			{
+				"comment_id": 35,
+				"body": "BTSync资源\nhttp://127.0.0.1:43110/mydf.bit/?Post:72",
+				"added": 1462493129
+			}
+		],
+		"19_1NwWoM1qGUV9gjLG7QGyhqsRxKKga2rhtf": [
+			{
+				"comment_id": 36,
+				"body": "还有BTSync\nhttp://127.0.0.1:43110/mydf.bit/?Post:72",
+				"added": 1462493786
+			}
+		],
+		"3_1GhU19a2GiwAdU89WxM1ZDD8R3xQyqToPu": [
+			{
+				"comment_id": 37,
+				"body": "附议",
+				"added": 1462510196
+			}
+		],
+		"4_1BjBjgzWiY58V9Qbm7VqJ7w9UNYk7KACW1": [
+			{
+				"comment_id": 38,
+				"body": "聊天室可以交流消息\nhttp://127.0.0.1:43110/chat.mydf.bit/",
+				"added": 1462537235
+			}
+		],
+		"1_1ApXQpqxpeCBBNVMZDoCmzSaHTX2SknbJT": [
+			{
+				"comment_id": 39,
+				"body": "不方便，比如我在blog里写链接用```/chat.mydf.bit/```这样的方式，就解析成 ```/mydf.bit/chat.mydf.bit/```无法访问了",
+				"added": 1462538470
+			}
+		],
+		"33_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 40,
+				"body": "领会了p2p老师的知识点，写了一篇blog，请老师指正\nhttp://127.0.0.1:43110/mydf.bit/?Post:77",
+				"added": 1462616888
+			}
+		],
+		"1_1NZsz5ugkzg27d9jmc8qrT9GxcLZdiuBGP": [
+			{
+				"comment_id": 41,
+				"body": "“哪里有压迫，哪里就有反抗。”，这是老毛说的",
+				"added": 1462717072
+			}
+		],
+		"12_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd": [
+			{
+				"comment_id": 42,
+				"body": "签名和发布的时候，指定了 `data/users/content.json` 路径么 ?",
+				"added": 1462798456
+			}
+		],
+		"4_157d61UG24B66Yw2qwEQWY7yFAWp1HoAST": [
+			{
+				"comment_id": 43,
+				"body": "有问题，首页刷不出，标签页可以进",
+				"added": 1462801042
+			}
+		],
+		"1_1C9W8CQ4omougnEsbhman5RAe83YM76R6Q": [
+			{
+				"comment_id": 44,
+				"body": "象棋题不是应该走兵9进1么，其他的子都不能动啊",
+				"added": 1462894265
+			}
+		],
+		"1_1P8Yw8V1Nj3w381BfPs8MHBjSctvJFAKkv": [
+			{
+				"comment_id": 45,
+				"body": "我看到的是 NO PEERS FOUND，也就是你的网站根本没有发布到ZeroNet，没有节点为你做种",
+				"added": 1463032963
+			}
+		],
+		"3_1NmwA9EFPu94QaN7yMYpzu2iSg1dGAYV6n": [
+			{
+				"comment_id": 46,
+				"body": "我看 [@p2p  的 FAQ](http://127.0.0.1:43110/gfwtalk.bit/?Topic:37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ) 里面介绍，要开放端口才能做种，不知道是不是这样。",
+				"added": 1463191119
+			},
+			{
+				"comment_id": 47,
+				"body": "> [p2p](#comment_722_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 逗我？我的FAQ里说的意思跟你理解的完全相反，囧我说的有歧义？\n\n5.13. ZeroNet有出口节点吗？能实现翻墙吗？\n\n没有出口。但是可以把墙外网站做镜像到ZeroNet，一些已经存在的镜像站请到0Net123中文导航里找。\n这里有个老外帮建立的VOA镜像，优化得很不错，按照镜像的深度分3种，推荐： http://127.0.0.1:43110/gfwtalk.bit/?Topic:13_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD\n请有意做种的朋友（特别是海外朋友），到镜像站后拖拽右上角圆形按钮打开隐藏菜单，把DOWNLOAD AND HELP DISTRIBUTE ALL FILES选项打开，下载全部页面和图片来做种。做种时要想办法使 `ZeorHello页面上部的PORT状态为OPEN `",
+				"added": 1463195486
+			}
+		],
+		"1_1HsnzfKQs6KTCFHudMLGwZonNMSKcn1kRu": [
+			{
+				"comment_id": 48,
+				"body": "如果你的网站已经发布到ZN，有节点给你做PEER，只需要关闭ZN主程序，把  `\\ZeroBundle\\ZeroNet\\data` 目录下面你的网站目录移走（备份），再重新打开ZN，访问自己的网站。",
+				"added": 1463353209
+			},
+			{
+				"comment_id": 49,
+				"body": "> [tomzh](#comment_4_1HsnzfKQs6KTCFHudMLGwZonNMSKcn1kRu): 问题网站已经同步出去了\n\n确实是灾难。\n如果网站内容很重要，定期打包备份是个好习惯。",
+				"added": 1463354382
+			}
+		],
+		"4_16GNeHFpN3X1NaWBUJKXJ16eGYAwsfP8qF": [
+			{
+				"comment_id": 50,
+				"body": "这个有意义，能够实现实时更新么？",
+				"added": 1463360049
+			},
+			{
+				"comment_id": 51,
+				"body": "可以参考 http://xixitalk.github.io/twitter/weekly.html  以及 http://xixitalk.github.io/twitter/2016/2016-05-15.html  在每条推文后面附一个链接",
+				"added": 1463360554
+			}
+		],
+		"38_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 52,
+				"body": "你问我滋瓷不滋瓷，我说滋瓷",
+				"added": 1463414344
+			}
+		],
+		"5_18hidquEH7k6Dnn5MDd4zJFJ2cTUF22wk2": [
+			{
+				"comment_id": 53,
+				"body": "试试这样，前提是对方建立了邮箱   [给我发送邮件](/Mail.ZeroNetwork.bit/?to=mydf)\n\n代码  `[给我发送邮件](/Mail.ZeroNetwork.bit/?to=mydf)`",
+				"added": 1463460898
+			}
+		],
+		"2_1CuQFwcf76QwbaQpNfE54Kmtdjbg26RmyY": [
+			{
+				"comment_id": 54,
+				"body": "提问前请看置顶贴----原因很多，要么是没有签名发布，要么是没有做种",
+				"added": 1463671332
+			}
+		],
+		"2_16s9RYL8i9gtVGWR3iv9mbeLz5v8GM85R6": [
+			{
+				"comment_id": 55,
+				"body": "首选浏览器是Firefox和chrome，弃用IE，抵制360.",
+				"added": 1463728810
+			}
+		],
+		"2_1L7D3NnnpEeQy7qFn591WBsBi1rH5o3MpU": [
+			{
+				"comment_id": 56,
+				"body": "中文导航 http://127.0.0.1:43110/0net123.bit/  \n杨深锐的博客  http://127.0.0.1:43110/shenrui.bit/?Toc=tag:ZeroNet\nChaos的树莓派实验室  http://127.0.0.1:43110/dreamcreator108.bit",
+				"added": 1463788576
+			}
+		],
+		"1_125NUT1WZeM5NA7LsKUQydJaZo44NphBEe": [
+			{
+				"comment_id": 57,
+				"body": "如果只要求访问，通过几个开放代理就能够访问ZeroNET\nhttp://127.0.0.1:43110/zeroproxies.bit/",
+				"added": 1463870661
+			}
+		],
+		"5_16GNeHFpN3X1NaWBUJKXJ16eGYAwsfP8qF": [
+			{
+				"comment_id": 58,
+				"body": "真的实现了，可以看到简单的页面。",
+				"added": 1464052977
+			}
+		],
+		"1_17BcWhPHRH2iFqbPbji7jbzLCTsUSy7AFH": [
+			{
+				"comment_id": 59,
+				"body": "看置顶贴的--建站教程---“做种”的有关部分",
+				"added": 1464182683
+			}
+		]
+	},
+	"comment_vote": {
+		"8_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": 1
+	}
+}

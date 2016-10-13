@@ -1,0 +1,17 @@
+{
+ "address": "1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+ "cert_auth_type": "web",
+ "cert_sign": "HOIbsAobPH6/vDRPuH4ev/9ZD44VUUvYrdjDXRqmbxTNJk25mIcbu7U8FDvQkYQXwJgGRHd2YF+ZCR/9M2lgYV0=",
+ "cert_user_id": "longdada@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "43d587f98a9d85e89c0d720f20fd21917ba7b5d6e8daa7bc1775ef44dde60b31",
+   "size": 1662
+  }
+ },
+ "inner_path": "data/users/1YoMVn7kCYx5w2jJGgSg3yyvztYX4d8QR/content.json",
+ "modified": 1476115807.339,
+ "signs": {
+  "1YoMVn7kCYx5w2jJGgSg3yyvztYX4d8QR": "HOIVUUsct3eVKZvclrm0NmojE33DfClD38nsB/UvA03KZhEi6YVLY9H5c6JjyVESblU+B3XGZ1uRpJC0JdypN5I="
+ }
+}
